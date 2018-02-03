@@ -7,6 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" media="(max-width: 667px)" href="phone.css">
+	<link rel="stylesheet" media="(max-width: 668px) and (max-width: 1024px)" href="tablet.css">
+	<link rel="stylesheet" media="(min-width: 1025px)" href="desktop.css">
 </head>
 
 <body>
@@ -18,7 +22,7 @@
 			</a>
 		</div>
 
-		<div class="header-element" >
+		<div class="header-element" id="site-title-container" >
 			<h2 id="site-title">Pokedex</h2>
 		</div>
 
@@ -65,6 +69,15 @@
 				Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
 			</div>
 		</section>
+		<section id="navigation-buttons">
+			<nav>
+				<a class="nav-button" href="#">BACK</a>
+				<a class="nav-button" href="map.html">MAP</a>
+				<a class="nav-button" href="area.html">AREA</a>
+				<a class="nav-button" href="#">NEXT</a>
+			</nav>
+		</section>
+
 		<!-- other pokemon pictures -->
 		<section class="pokemon-pic" id="pokemon-list">
 			<img src="assets/images/abra.png">
@@ -83,13 +96,14 @@
 	</article>
 
 
-	<!-- navigation buttons -->
-	<nav>
-		<a class="nav-button" href="#">BACK</a>
-		<a class="nav-button" href="map.html">MAP</a>
-		<a class="nav-button" href="area.html">AREA</a>
-		<a class="nav-button" href="#">NEXT</a>
-	</nav>
+	<footer>
+		<nav>
+			<a class="nav-button" href="#">BACK</a>
+			<a class="nav-button" href="map.html">MAP</a>
+			<a class="nav-button" href="area.html">AREA</a>
+			<a class="nav-button" href="#">NEXT</a>
+		</nav>	
+	</footer>
 
 </body>
 </html>

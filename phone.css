@@ -1,0 +1,95 @@
+header {
+    height: 60px;
+}
+
+#dropdown-menu {
+    width: 60px;
+    float: left;
+}
+
+#hamburger {
+    display: inline-block;
+}
+
+#hamburger img {
+    width: 30px;
+}
+
+#dropdown {
+    display: none;
+}
+
+#pokeball {
+    display: none;
+}
+
+#site-title-container {
+    margin-right: 60px;
+    width: calc(100% - 120px);
+}
+
+#site-title {
+    line-height: 60px;
+}
+
+.search-box {
+    width: 90%;
+}
+
+.selected-pokemon {
+    width: 90%;
+}
+
+.pokemon-name {
+    display: block;
+    padding: 5px 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#selected-pokemon-pic {
+    display: block;
+    width: 80%;
+}
+
+#selected-pokemon-property  {
+    display: block;
+    width: 100%;
+}
+
+#selected-pokemon-property th {
+    display: none;
+}
+
+#selected-pokemon-property tr {
+    border-top: 1px solid black;
+}
+
+#navigation-buttons {
+    width: 100%;
+}
+
+#navigation-buttons nav {
+    width: 100%;
+}
+
+#navigation-buttons nav a {
+    width: 25%;
+}
+
+#pokemon-list {
+    margin: 0;
+    width: 100%;
+    background-color: black;   
+    border-top: 4px solid black;
+}
+
+.pokemon-pic img {
+    display: inline-block;
+    width: calc(50% - 6px);
+    margin: 0 auto;
+}
+
+footer {
+    display: none;
+}
