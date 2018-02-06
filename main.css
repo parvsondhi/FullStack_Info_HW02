@@ -116,7 +116,7 @@ article {
 	display: inline-block;
 	width: 100%;
 	float: left;
-	padding-bottom: 5px;
+	/* padding-bottom: 5px; */
 }
 
 .poke_pic img {
@@ -150,7 +150,8 @@ article {
 	background-color: #FFFFFF;
 	border: 1px solid;
 	/* padding: 5px 40px; */
-	height: 100px;
+	/* height: 100px; */
+	margin-top: 5px;
 	/* font-size: 24px; */
 }
 
@@ -215,11 +216,13 @@ nav {
 		width: 60%;
 	} */
 	#selected_poke_list {
-		width: 60%;
+		width: 69%;
 	}
 	#selected_poke_pic{
 		width: 30%;
 	}
+	#selected_poke_list ul {
+		padding: 5px 40px;
 
 	}
 }
@@ -228,9 +231,17 @@ nav {
 	#pokemon-list {
 		width:750px;
 	}
+	#selected_poke_name {
+		width: 69%;
+	}
+	#selected_poke_list {
+		width: 69%;
+		margin-top: 0px;
+	}
 	#pokeball{
 		visibility: visible;
 	}
+
 }
 
 
