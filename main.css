@@ -49,10 +49,16 @@ h2 {
 
 #dropdown{
 	float: left;
+	display: none;
 }
 
 #hamburger {
-	display:none;
+	float: left;
+}
+
+#hamburger img {
+	display: visible;
+	width: 30px;
 }
 
 #pokeball {
