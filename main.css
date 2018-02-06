@@ -164,15 +164,18 @@ article {
 	background: #ffffff;
 }
 
-
-.gallery_pic {
-	width: 16%;
-	border: solid 1px black;
-	/* margin: -2px; */
+.pokemon-pic {
+	text-align: center;
 }
 
-#gallery {
-	width: 100%;
+.pokemon-pic img {
+	display: inline-block;
+	width:90pt;
+	margin: 0 auto;
+}
+
+#pokemon-list {
+	width: 300px;
 }
 
 /*********   nav   **********/
@@ -191,6 +194,25 @@ nav {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+/*********   @media queries   **********/
+
+@media only screen and (min-width: 500px) {
+	#pokemon-list {
+		width:500px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#pokemon-list {
+		width:750px;
+	}
+	#pokeball{
+		visibility: visible;
+	}
+}
+
+
 
 /*********   colors   **********/
 .poke_red {
