@@ -176,15 +176,17 @@ article {
 
 #pokemon-list {
 	width: 300px;
+	margin-bottom: 0;
 }
 
 /*********   nav   **********/
-#nav-container {
-	height: 50px;
-}
 
 nav {
-	height: 100%;
+	margin-top: 10px;
+	background: #538cc6;
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
 }
 
 .nav-button {
@@ -211,7 +213,6 @@ nav {
 		visibility: visible;
 	}
 }
-
 
 
 /*********   colors   **********/
