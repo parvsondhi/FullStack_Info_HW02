@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	font-family: "Open Sans", sans-serif;
+	margin:auto;
+}
+
+
+/*********   header   **********/
+header {
+	background: #b30000;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	margin-bottom: 1px;
+}
+
+.header-element {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: auto;
+	align-content: center;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+#dropdown{
+	float: left;
+}
+
+#hamburger {
+	display:none;
+}
+
+#pokeball {
+	text-align: right;
+	visibility: hidden;
+}
+
+/*********   article   **********/
+article {
+
+}
+
+.search-box {
+	text-align: center;
+	width: 80%;
+}
+
+input[type=text] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-size: 1em;
+}
+
+input {
+	margin: 15px;
+	width: 94%;
+}
+
+button {
+	width: 15%;
+	height: 60%;
+	margin-top: 10px;
+	margin-left: 50px;
+	border-radius: 25px;
+	font-size: 16px;
+}
+
+/*********   section   **********/
+section {
+	margin-bottom: 10px;
+}
+article {
+	background-image: url('assets/backgrounds/background_home.png');
+	/* background-size: cover; */
+	background-repeat: repeat;
+}
+
+.selected_poke_container {
+	width: 80%
+}
+
+#selected_poke_pic{
+	display: inline-block;
+	width: 30%;
+	float: left;
+}
+
+.poke_pic img {
+	/* display: inline-block; */
+	width:90pt;
+	margin: 0 auto;
+	display: block;
+}
+
+#selected-pokemon-property {
+	display: inline-block;
+	border: 1px solid;
+	vertical-align: top;
+	float: left;
+	width: 69%;
+}
+
+#selected_poke_name {
+	background-color: rgb(94, 143, 204);
+	color: #FFFFFF;
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+	text-align: center;
+}
+
+#selected_poke_list {
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+	/* padding: 5px 40px; */
+	height: 100px;
+	/* font-size: 24px; */
+}
+
+#selected_poke_list ul {
+	padding: 5px 40px;
+}
+
+#poke_text {
+	display: inline-block;
+	margin: 20px auto;
+  border-radius: 25px;
+  border: 5px solid #b30000;
+  padding: 20px;
+	background: #ffffff;
+}
+
+
+.gallery_pic {
+	width: 16%;
+	border: solid 1px black;
+	/* margin: -2px; */
+}
+
+#gallery {
+	width: 100%;
+}
+
+/*********   nav   **********/
+#nav-container {
+	height: 50px;
+}
+
+nav {
+	height: 100%;
+}
+
+.nav-button {
+	display: inline-block;
+	padding: 15px 5%;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*********   colors   **********/
+.poke_red {
+  background-color: rgb(190, 88, 89);
+}
+
+.poke_blue {
+	background-color: rgb(94, 143, 204);
+}
