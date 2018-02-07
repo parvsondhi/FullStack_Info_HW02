@@ -1,0 +1,19 @@
+.pokemon_img_div {
+	width:24.3%;
+}
+
+
+#pikachu {
+	width: 20%;
+	margin-bottom: 5%;
+}
+
+#pikachu_desc {
+	width: 82%;
+	padding-left: 75px;
+}
+
+section p {
+	border: 8px solid #BE5959;
+	font-size: 25px;
+}
