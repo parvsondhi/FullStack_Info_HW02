@@ -1,0 +1,58 @@
+#selectpokemon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+}
+
+#selectpokemon img {
+	width: 70%;
+	height: auto;
+}
+
+#pokeinfo {
+	vertical-align: middle;
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #676767;
+}
+
+#pokeinfo .content {
+	text-align: center;
+}
+
+#description {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+#smallnav {
+	display: block;
+	margin-top: 25px;
+}
+
+header {
+	height: 67px;
+}
+
+#button span {
+	display: none;
+}
+
+#button button {
+    width: 30px;
+    height: 30px;
+    background-image: url("assets/icons/hamburger_icon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+#poke img {
+	display: none;
+}

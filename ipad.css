@@ -1,0 +1,47 @@
+#pokeinfo h2 {
+	display: none;
+}
+
+h3 {
+	display: block;
+	color: #fff;
+	background-color: #5c90cc;
+	height: 20px;
+	padding: 8px 10px;
+}
+
+#description {
+	background-color: #fff;
+	border-radius: 25px;
+    border: 5px solid #be5959;
+    padding: 20px; 
+    margin-top: 30px;
+    width: 65%;
+}
+
+#otherpokemon img {
+	width: 70%;
+	height: auto;
+	border: 1px solid #3f3f3f;
+}
+
+#otherpokemon {
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: -85px;
+}
+
+#otherpokemon img {
+	width: 60%;
+	height: auto;
+	border: 1px solid #3f3f3f;
+}
+
+section {
+	width: 70%;
+	margin-top: 30px;
+}
+
+#smallnav {
+	display: none;
+}
