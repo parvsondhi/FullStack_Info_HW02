@@ -1,0 +1,85 @@
+header {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#dropdown {
+	font-size: 1.5em;
+	width: 125px;
+}
+
+#pokedex {
+	font-size: 1.5em;
+}
+
+#pokeball_div{
+	width:15%;
+}
+
+#pokeball {
+	width: 2.5em;
+}
+
+/*SEARCH BOX*/
+#search_box {
+	margin-left: 5%;
+	font-size: 20px;
+}
+
+#pikachu_title {
+	font-size: 20px;
+	margin-left: 5%;
+}
+
+.selected_pokemon {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#pikachu {
+	width: 35%;
+	margin-bottom: 5%;
+}
+
+#pikachu_info_div {
+	margin-left: -1%;
+	width: 100%;
+}
+
+#pikachu_desc {
+	font-size: 1.5em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 75px;
+}
+
+section p {
+	display:none;
+}
+
+footer {
+	display: none;
+}
+
+#footer_shifted {
+	display:block;
+}
+
+nav a {
+	margin-bottom: 5%;
+	font-size: 1.5em; 
+}
+
+
+.pokemon_img_div {
+	width:49%;
+}
+
+
+
+
+
+
+
+
