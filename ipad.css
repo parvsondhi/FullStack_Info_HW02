@@ -1,0 +1,36 @@
+.grid-pictures{
+	display: inline-block;
+	margin-right: -85px;
+	margin-top: -10px;
+}
+
+.grid-pictures img {
+	width: 70%;
+	height: auto;
+	border: 2px solid black;
+}
+
+.main-stats h2{
+	display: none;
+}
+
+h3 {
+	display: block;
+	padding: 5px;
+	background-color: #5D90CB;
+	color: white;
+	font-size: 20px;
+}
+
+.main-stats{
+	width: 60%;
+	margin-left: 10px;
+}
+
+.hamburger{
+	display: none;
+}
+
+.iphonefooter{
+	display: none;
+}

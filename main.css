@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+	font-family: Gill Sans;
+}
+
+
+html, body{
+	background-image: url(./assets/backgrounds/background_home.png);
+	background-size: contain;
+	font-family: Futura;
+}
+
+/*********   header   **********/
+header {
+	font-family: Gill Sans;
+	font-weight: bold;
+	color: white;
+	background-color: #BD5858;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+.pokeball-div{
+	display: inline-block;
+	margin-top: 10px;
+	float: right;
+}
+
+.button{
+	float:left;
+	display: inline-block;
+	font-size: 20px;
+	left: 20%;
+}
+
+.site-title-div{
+	display: inline-block;
+}
+
+.pokeball{
+	margin-right: 100px;
+	height: 45px;
+	vertical-align: middle;
+}
+
+.site-title{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.dropdown{
+	font-family: Gill Sans;
+	vertical-align: middle;
+	font-size: 20px;
+	float: left;
+	margin: 20px 0px 20px 60px;
+	padding: 1px 15px;
+	border-radius: 5px;
+}
+
+.search-box {
+	margin-top: -10px;
+}
+
+
+.search-pokemon{
+	width: 100%;
+	background-color: white;
+	font-size: 15px;
+	margin-top: 20px;
+	padding: 5px;
+	border: 2px solid gray;
+}
+
+
+.main-display{
+	width: 25%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.main-display img{
+	height: auto;
+	width: 90%;
+	margin: 0px 0px 10px 40px;
+}
+
+.main-stats{
+	float: right;
+	width: 63%;
+	background-color: white;
+	border: 1px solid gray;
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 30px
+}
+
+h3{
+	display: none;
+}
+
+.main-stats h2{
+	background-color: #5D90CB;
+	color: white;
+	font-size: 15px;
+	padding: 10px 0px 10px 20px;
+}
+
+.main-stats p{
+	margin: 20px;
+	font-size: 20px;
+}
+
+.main-description{
+	display: inline-block;
+	background-color: white;
+	border: 10px solid #BD5858;
+	font-size: 20px;
+	border-radius: 15px;
+	margin: 10px 10px 10px 20px;
+
+}
+
+.main-description p{
+	padding: 25px;
+}
+
+.grid-pictures{
+	display: inline-block;
+	margin-right: -80px;
+	margin-top: -20px;
+}
+
+.grid-pictures img {
+	width: 70%;
+	height: auto;
+	border: 2px solid black;
+}
+
+
+
+/*********   article   **********/
+article {
+	
+	width: 100%;
+}
+
+/*********   section   **********/
+section {
+	width: 70%;
+	margin-top: 30px;
+}
+
+/*********   nav   **********/
+
+nav {
+    width: 100%;
+    background-color: #5c90cc;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.nav-class{
+	display: inline-block;
+	width: 20%;
+	margin: 20px auto;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 20px;
+	
+}
+
+.nav-button{
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hamburger{
+	display: none;
+}
+
+.iphonefooter{
+	display: none;
+}
