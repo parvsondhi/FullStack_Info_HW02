@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<link rel="stylesheet" type="text/css" media="(max-width: 960px)" href="medium.css">
+		<link rel="stylesheet" type="text/css" media="(max-width: 400px)" href="small.css">
+
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			<div class="header-element" id="dropdown-menu">
+			  <button class="dropdown-toggle" id="dropdown" data-toggle="dropdown">Dropdown
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+					<!--
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+					-->
+			  </ul>
+			</div>
+			<div class="header-element" >
+				<h1>Pokedex</h1>
+			</div>
+			<div class="header-element" id="pokeball">
+				<img src="assets/icons/pokeball_icon.png">
+			</div>
+		</header>
+
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+			<!-- 1) search box -->
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<!-- 3) other pokemon pictures in 2x6 format -->
+		<article class="main-class" id="main-id">
+			<section class="" id="">
+				<div class="topnav">
+				  <input type="text" value="Search Pokemon"></input>
+				</div>
+			</section>
+
+			<section class="picked-pokemon" id="">
+				<div class="pokemon-type-med">
+					<th>No.001 Pikachu</th>
+				</div>
+
+				<div class="pokemon-pic-picked" id="picked-pokemon-img">
+					<img src="assets/images/pikachu.png">
+				</div>
+
+				<div class="pokemon-type-detail-med">
+					<li>Electric Type </li>
+					<li>Gentle Temperment</li>
+					<li>Grasslands</li>
+				</div>
+
+
+				<div class="pokemon-type" id="picked-pokemon-type">
+					<table class="pokemon-table">
+						<tr>
+							<th>No.001 Pikachu</th>
+						</tr>
+						<tr>
+							<td>
+								<ul>
+									<li>Electric Type </li>
+									<li>Gentle Temperment</li>
+									<li>Grasslands</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="" id="pokemon-description">
+					<p>Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students</p>
+				</div>
+			</section>
+
+			<!-- footer for mobile-->
+			<nav class="footer-mobile" id="">
+				<a class="nav-button" href="main.html">BACK</a>
+				<a class="nav-button" href="map.html">MAP</a>
+				<a class="nav-button" href="area.html">AREA</a>
+				<a class="nav-button" href="main.html">NEXT</a>
+			</nav>
+
+			<section class="pokemon-pic" id="pokemon-list">
+				<img src="assets/images/whatisthat.png">
+				<img src="assets/images/abra.png">
+				<img src="assets/images/vulpix.png">
+				<img src="assets/images/nidorino.png">
+				<img src="assets/images/clafary.png">
+				<img src="assets/images/charmeleon.png">
+				<img src="assets/images/charmander.png">
+
+				<img src="assets/images/firething.png">
+				<img src="assets/images/jigglypuff.png">
+				<img src="assets/images/horsea.png">
+				<img src="assets/images/pidgey.png">
+				<img src="assets/images/wartortle.png">
+			</section>
+
+			<!--
+			<section id="pokemon-list">
+				<div class="pokemon-pic">
+					<img src="assets/images/whatisthat.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/abra.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/vulpix.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/nidorino.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/clafary.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/charmeleon.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/charmander.png">
+				</div>
+
+				<div class="pokemon-pic">
+					<img src="assets/images/firething.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/jigglypuff.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/horsea.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/pidgey.png">
+				</div>
+				<div class="pokemon-pic">
+					<img src="assets/images/wartortle.png">
+				</div>
+				-->
+			</section>
+		</article>
+
+		<!-- include navigation buttons -->
+		<nav class="footer" id="">
+			<a class="nav-button" href="main.html">BACK</a>
+			<a class="nav-button" href="map.html">MAP</a>
+			<a class="nav-button" href="area.html">AREA</a>
+			<a class="nav-button" href="main.html">NEXT</a>
+		</nav>
+	</body>
+</html>

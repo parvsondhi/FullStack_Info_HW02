@@ -1,0 +1,46 @@
+.pokemon-pic {
+	display: inline-block;
+	width: 49%;
+	/*height: 25%;*/
+}
+
+.pokemon-pic img {
+	width: 24%;
+	height: 12em;
+	object-fit: cover;
+}
+
+header {
+	/* background-color: yellow; */
+}
+
+.pokemon-table{
+	display: none;
+}
+
+.pokemon-type-med{
+	display: grid;
+	background-color: #5D90CB;
+  color: white;
+	text-align: center;
+	padding: 3px 18px;
+}
+
+.pokemon-type-detail-med{
+	display: inline-block;
+	background-color: white;
+	padding: 5px 40px;
+	height: 70px;
+	width: 40%;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	vertical-align: top;
+	align: left;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.pokemon-pic-picked img{
+	display: inline-block;
+	height: 150px;
+}
