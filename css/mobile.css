@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #CECECE;
+}
+
+/*********   reset for size changing   **********/
+.large {
+    display: none;
+}
+.medium {
+    display: none;
+}
+.small {
+    display: block;
+}
+
+/*********   header   **********/
+header {
+	background-color: #B64E4F;
+	color: white;
+	width: 95%;
+	padding: 5px 0px;
+	height: 40px; 
+	/* display: flex;
+    justify-content: space-around;
+	align-items: center; */
+}
+
+header .flex-item {
+    width: 33%;
+}
+
+header span{
+	margin-left: 30px;
+    font-size: 20px;
+}
+
+header button {
+	height: 22px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 0px 15px;
+}
+
+header img {
+	margin: 0px 15px;
+	width: 40px;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-icon {
+    display: block;
+    height: 30px;
+    width: 24px;
+}
+
+.nav-logo {
+    display: none;
+}
+
+/*********   background   **********/
+.container {
+	background-image: url("../backgrounds/background_home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 95%;
+	height: 60%;
+}
+
+/*********   search bar   **********/
+.search-box input[type=search] {
+    -webkit-appearance:none;
+    border: gray solid 2px;
+	margin-top: 30px;
+    width: 100%;
+    padding: 26px 0px;
+    font-size: 16px;
+	text-indent: 10px;
+}
+
+/*********   selected pokemon   **********/
+.selected-pokemon {
+	margin-top: 25px;
+}
+
+.selected-pokemon article {
+    display: none;
+}
+.selected-pokemon table {
+	float: right;
+	border: 1.5px solid darkgray;
+	border-collapse: collapse;
+	width: 73%;
+}
+
+.selected-pokemon table th {
+	text-align: left;
+	color: white;
+	font-size:18px;
+	padding: 4px 15px;
+	width: 10%;
+	background-color: #5185C5
+}
+
+.selected-pokemon table td {
+	text-align: left;
+	padding: 4%;
+	font-size:14px;
+	background-color: white;
+}
+.selected-pokemon ul {
+	padding: auto, 10px;
+	list-style-type: none;
+}
+
+.selected-pokemon img {
+	display: inline-block;
+	width: 19%;
+	max-width: 120px;
+	margin: auto;
+}
+
+/*********   other pokemon   **********/
+
+.other-pokemon {
+	margin:auto;
+	width: 95%;
+}
+
+.other-pokemon img {
+	width: 100%;
+	margin: 0px;
+	display: block;
+	border: 1px solid black;
+	border-spacing: initial;
+}
+
+/*********   flex settings   **********/
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.pokemon-img {
+	width: 50%;
+    border-spacing: 0px;
+}
+
+.textbox-title {
+    width: 100%;
+    background-color: #5185C5;
+    color: white;
+    border: gray solid 1px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textbox-content {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: gray solid 1px;
+    padding: 15px 5em;
+    margin-bottom: 50px;
+}
+
+.selected-img {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.selected-img img{
+    width:100%;
+    max-width: 160px;
+}
+
+/*********   article   **********/
+article {
+    margin: 15px 0px;
+	border: 5px solid #B64E4F;
+	background-color:white;
+	border-radius: 10px;
+	padding:20px;
+	font-size: 14px;
+}
+
+/*********   section   **********/
+section {
+	margin: 0px 10px;
+}
+
+/*********   nav   **********/
+
+footer {
+	width: 95%;
+	height: 60px;
+	background: #5185C5;
+}
+
+nav {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0px;
+}
+
+nav a {
+	margin: 0px;
+}
+
+nav button{
+	margin: 0px;
+	padding: 3px 17px;
+}
+
+.button {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: #EEEEEE;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 2px 25px;
+}
+
+footer .flex-item {
+    width: 50%;
+}
+.right {
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    width: 40px;
+}
+
+.left {
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+    width: 40px;
+}

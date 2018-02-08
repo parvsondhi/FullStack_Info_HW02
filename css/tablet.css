@@ -1,0 +1,108 @@
+/*********   reset for size changing   **********/
+
+.small {
+    display: none;
+}
+.large {
+    display: none;
+}
+
+.medium {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*********   header   **********/
+header {
+    height: 50px;
+}
+
+header span{
+	margin-left: 80px;
+    font-size: 20px;
+}
+
+.nav-button {
+    display: block;
+}
+.nav-icon {
+    display: none;
+}
+.nav-logo {
+    display: block;
+    float: right;
+	width: 40px;
+}
+
+header .flex-item {
+    width: 33%;
+}
+
+/*********   search bar   **********/
+.search-box input[type=search] {
+    -webkit-appearance:none;
+    border: gray solid 2px;
+	margin-top: 30px;
+    width: 100%;
+    padding: 18px 0px;
+    font-size: 16px;
+	text-indent: 10px;
+}
+
+
+/*********   selected pokemon   **********/
+
+.selected-pokemon {
+	margin-top: 10px;
+}
+
+.selected-pokemon article {
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 15px;
+    border: 8px solid #B64E4F;
+    padding: 25px;
+}
+
+.textbox-title {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+}
+
+.selected-img {
+    width: 25%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.textbox-content {
+    width: 50%;
+    background-color: white;
+    color: black;
+    border: gray solid 1px;
+    font-size: 20px;
+    padding: 40px 2em;
+    margin-bottom: 20px;
+}
+
+/*********   other pokemon   **********/
+
+.pokemon-img {
+	width: 25%;
+    border-spacing: 0px;
+}
+
+footer {
+    border: darkgrey solid 2px;
+}
+
+footer .flex-item {
+    width: 10%;
+    margin: 0px;
+    border: darkgrey solid 1px;
+}
+
+nav a {
+    margin: 0px;
+}
