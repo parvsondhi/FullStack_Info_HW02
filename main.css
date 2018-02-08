@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: sans-serif;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+body{
+	background-image: url("assets/backgrounds/background_home.png");
+	/*background-size: cover;*/
+	background-size:100% 80%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 50px;
+}
+
+button{
+	border-radius: 5px;
+}
+
+/*********   header   **********/
+header {
+	background: #BE5958;
+	height: 50px;
+	color: white;
+	text-align: center;
+}
+
+header button{
+	float:left;
+}
+
+button{
+	margin: 15px;
+	background-color: #E7F4FC;
+	font-size: 100%;
+}
+header h1{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 120%;
+	letter-spacing: 2px;
+	margin: 15px;
+}
+header img{
+	height: 80%;
+	float:right;
+	margin: 5px;
+}
+
+html { 
+    image-rendering: optimizeSpeed; 
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#search-section{
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+#search-section input{
+	font-size: 100%;
+	padding: 5px 20px 5px 20px;
+	margin: 5px 20px 5px 20px;
+	width: 75%;
+}
+
+#selected-pic{
+	text-align: center;
+}
+
+#selected-pic img{
+	max-width: 100px;
+	width:70%;
+}
+
+#selected-namebox h2{
+	background:	#5A90CC;
+	font-size: 120%;
+	color: white;
+	padding: 10px 0px 10px 30px;
+}
+
+#selected-namebox ul{
+	padding: 15px 0px 15px 50px;
+	background: white;
+}
+
+#selected-namebox{
+	border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+	width:58%;
+	display: inline-block;
+}
+
+#pokemon-description{
+	background-color:white;
+	border: 5px solid #BE5958;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 30px 15px 30px 15px;
+}
+
+#selected-pic{
+	width:35%;
+	display: inline-block;
+}
+
+#pokemon-grid div img{
+	width:100%;
+	display: block;
+}
+#pokemon-grid div{
+	display: inline-block;
+	width:16.66%;
+	outline: 2px solid black;
+	vertical-align: middle;
+}
+
+nav{
+	display: inline-block;
+	width:25%;
+	text-align: center;
+	background:#558FCE;
+}
+
+nav button{
+	display: block;
+	width: 60%;
+}
+
+/*********   section   **********/
+section {
+	display: block;
+}
+
