@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	/*height: 1500px;
+	width: 600px;*/
+
+}
+
+/*********   header   **********/
+header {
+	font-family: Arial;
+ 	font-weight: bold;
+    color: white;
+	width: 100%;
+	height: 4%;
+	background: #BD5858;
+	border-bottom: 10px solid #000000;
+}
+
+.header-part{
+	display: inline-block;
+	width: 32%;
+	height: 100%;
+	vertical-align: middle;
+
+}
+
+#dropdown a {
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+	vertical-align: middle;
+	font-size: 15px;
+	padding: 2%;
+
+
+}
+
+#dropdown {
+	float: left;
+	margin-left: 5%;
+	font-family: Arial;
+	border-radius: 5px;
+	background: #eeeeee;
+	border: solid 1px #555555;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 1% 4%;
+	margin: 10% ;
+
+
+}
+
+#dropdown button {
+	display: block;
+	vertical-align: middle;
+	padding: 2%;
+	
+}
+
+
+#burger{
+	display: none;
+}
+
+
+#pokedex {
+	font-family: Arial;
+	font-size: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10% 0;
+
+}
+
+#pokedex h3 {
+	display: block;
+
+
+}
+
+#pokeball {
+	float: right;
+	height: 80%;
+	vertical-align: middle;
+	margin: 3%;
+	margin-right: -1%
+}
+
+
+/*********   article   **********/
+article {
+	background-image: url("assets/backgrounds/background_home.png");
+	background-size: 100%;
+}
+
+section {
+	/*width:600px;*/
+	
+}
+
+.search-box input{
+	width: 90%;
+	margin: 2% 5%;
+	float: middle;
+	box-sizing: border-box;
+	font-size: 0.90em;
+	font-weight: bold;
+}
+
+#search-input{
+	padding:1.5% 3%;
+	color: #999999;
+	border: 1.5px solid #888888;
+}
+
+/*********   section   **********/
+
+ul {
+	list-style-type: none;
+}
+
+.selected-pokemon {
+	margin: auto 4%;
+	margin-bottom: 3%;
+}
+
+.selected-part{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#selected-image {
+	width: 20%;
+}
+
+#selected-deets{
+	width: 78%;
+	border: 2px solid #888888;
+	margin: 0;
+}
+
+#pikachu {
+	display: block;
+	height: 90%;
+	width: 90%;
+	margin: auto;
+
+}
+
+#deets-title-ipad{
+	display: none;
+}
+
+#deets-title{
+	
+	font-family: Arial;
+	padding:2% 6%;
+	color: white;
+	background: #5D90CB;
+}
+
+#deets-deets{
+	font-family: Arial;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding:2% 6.5%;
+	background: #ffffff;	
+}
+
+
+.description {
+	font-family: Arial;
+	font-size: 0.9em;
+	font-weight: bold;
+	background: #ffffff;	
+	margin: auto 4%;
+	border: 6px solid #BD5858;
+	padding: 3%;
+	padding-right: 4%;
+	margin-bottom: 5%;
+	border-radius: 10px;
+}	
+
+#poke-sect{
+	margin: auto -0.3em;
+}
+
+#nav-small{
+	display: none;
+}
+
+#poke-image div {
+	display: block;
+	
+}
+
+#poke { 
+	display: inline-block;
+	margin: auto;
+	width: 16.3%; 
+	height: 16.3%; 
+	border: solid 1px black;
+	margin-right: -4px;
+	margin-bottom: -4px;
+	
+} 
+
+/*********   nav   **********/
+
+footer {
+	font-family: Arial;
+ 	font-weight: bold;
+    color: white;
+	width: 100%;
+	height: 4%;
+	background: #5D90CB;
+	
+}
+
+#nav{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	vertical-align: middle;
+
+	border-radius: 5px;
+	background: #eeeeee;
+	border: solid 1px #555555;
+
+	padding: 2px;
+
+	margin: 3.2% 4%;
+	margin-left: 5.2%
+	
+
+}
+
+.nav-button  {
+	font-family: Arial;
+	text-decoration: none;
+	background: #eeeeee;
+	color: #000000;
+	
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+}
+
+h1.map {
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+}
+
+h1.area {
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+}
+
+#map-head{
+	height: 20%;
+}
+
+#area-head{
+	height: 20%;
+}
+
+.area-art{
+	font-family: Arial;
+	font-weight: bold;
+	padding: 5% 0;
+	text-align: center;
+}

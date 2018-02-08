@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		
+		<!-- Laptop -->
+		<link rel="stylesheet" media="(max-width: 1280px)" href="Laptop.css">
+		<!-- iPad -->
+		<link rel="stylesheet" media="(max-width: 768px)" href="iPad.css">
+		<!-- iPhone 6 -->
+		<link rel="stylesheet" media="(max-width: 376px)" href="iPhone6.css">
+
+		<!-- make sure to link to your css file -->
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			
+			<div class="header-part">
+				<button id="dropdown" type="button">
+					<a  href="#">Dropdown</a>
+				</button>
+				<button id="burger" type="button">
+					<img src="assets/icons/hamburger_icon.png">
+				</button>
+			</div>
+			
+			<div class="header-part">
+				<h3 id="pokedex">Pokedex</h3>
+			</div>
+
+			<div class="header-part" >
+				<img id="pokeball" src="assets/icons/pokeball_icon.png">
+			</div>
+		</header>
+		
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+		<article>
+			
+			<!-- 1) search box -->
+			<section>
+				<span class="search-box">
+					<input id="search-input" type="text" value="Search Pokemon"></input>
+				</span>
+			</section>
+
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section>
+				
+				<div id="deets-title-ipad">No.001 Pikachu</div>
+
+				<div class="selected-pokemon">
+					
+					<div class="selected-part" id="selected-image">
+						<img id="pikachu" src="assets/images/pikachu.png">
+					</div>
+
+					<div class="selected-part" id="selected-deets">
+						
+						
+						<div id="deets-title">No.001 Pikachu</div>
+						
+						<div id="deets-deets">
+							<ul>
+								<li>- Electric Type </li>
+								<li>- Gentle Temperment</li>
+								<li>- Grasslands</li>
+							</ul>
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="description">
+					<p id="description">Pickachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+				</div>
+			</section>	
+			
+			<!-- 3) other pokemon pictures in 2x6 format -->
+			<section id="poke-sect">
+				
+				<nav id="nav-small">
+					<div id="nav-small">
+						<button id="nav" type="button">
+							<a class="nav-button" href="area.html">AREA</a>
+						</button>
+						<button id="nav" type="button">
+							<a class="nav-button" href="map.html">BACK</a>
+						</button>
+					</div>
+					<div id="nav-small">
+						<button id="nav" type="button">
+							<a class="nav-button" href=#selected-deets>INFO</a>
+						</button>
+						<button id="nav" type="button">
+							<a class="nav-button" href="map.html">MAP</a>
+						</button>
+					</div>
+				</nav>
+				
+				<div class="other-pokemon">
+					<div id="poke-image">
+						<img id="poke" src="assets/images/whatisthat.png">
+						<img id="poke" src="assets/images/abra.png">
+						<img id="poke" src="assets/images/vulpix.png">
+						<img id="poke" src="assets/images/nidorino.png">
+						<img id="poke" src="assets/images/clafary.png">
+						<img id="poke" src="assets/images/charmeleon.png">
+					
+
+					
+						<img id="poke" src="assets/images/charmander.png">
+						<img id="poke" src="assets/images/firething.png">
+						<img id="poke" src="assets/images/jigglypuff.png">
+						<img id="poke" src="assets/images/horsea.png">
+						<img id="poke" src="assets/images/pidgey.png">
+						<img id="poke" src="assets/images/wartortle.png">
+					</div>
+
+				</div>
+			</section>
+		</article>
+
+		<!-- include navigation buttons -->
+		<footer>
+			<nav id="nav-large">
+				
+				<button id="nav" type="button">
+					<a class="nav-button" href="">BACK</a>
+				</button>
+				<button id="nav" type="button">
+					<a class="nav-button" href="map.html">MAP</a>
+				</button>
+				<button id="nav" type="button">
+					<a class="nav-button" href="area.html">AREA</a>
+				</button>
+				<button id="nav" type="button">
+					<a class="nav-button" href="#selected-deets">NEXT</a>
+				</button>
+			</nav>
+
+		</footer>
+
+	</body>
+</html>
