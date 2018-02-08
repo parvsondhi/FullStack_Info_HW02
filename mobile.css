@@ -1,0 +1,103 @@
+
+#dropdown {
+    display: none;
+}
+
+#pokeball {
+    display: none;
+}
+
+#hamburger {
+    display: block;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+}
+
+.header-element {
+	display: inline-block;
+	width: 50%;
+} 
+
+
+.search-box {
+	text-align: center;
+	width: 90%;
+}
+
+.selected-pokemon {
+	width: 90%;
+}
+.pokemon-name {
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #538cc6;
+}
+
+#selected-pokemon-pic {
+	display: block;
+	width:90pt;
+	margin: 1em auto;
+}
+
+#selected-pokemon-property th {
+    display: none;
+}
+
+#selected-pokemon-property {
+    display: flex;
+    width: 100%;
+    border: 1px solid #000000;
+    margin-bottom: 10%;
+
+}
+table {
+    border: none;
+}
+
+#selected-pokemon-description {
+    display: none;
+}
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+    background-image: none;
+    background-color: #403E3E;
+    
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+.wrapper nav { order: 1; }
+#pokemon-list { order: 2; }
+
+#pokemon-list img {
+    border-bottom: 2px solid #403E3E;
+    border-top: 2px solid #403E3E;
+    width: 49%;
+    
+
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
+
+.nav-button {
+    display: inline-flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
