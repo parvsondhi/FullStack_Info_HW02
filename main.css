@@ -109,7 +109,8 @@ article {
 }
 
 .selected_poke_container {
-	width: 80%
+	width: 80%;
+	/* display: flex; */
 }
 
 #selected_poke_pic{
@@ -134,7 +135,7 @@ article {
 	width: 69%;
 } */
 
-#selected_poke_name {
+.selected_poke_name {
 	background-color: rgb(94, 143, 204);
 	border: 1px solid black;
 	color: #FFFFFF;
@@ -143,6 +144,11 @@ article {
 	padding: 5px 0px;
 	text-align: center;
 }
+
+#low {
+	visibility: hidden;
+}
+
 
 #selected_poke_list {
 	width: 100%;
@@ -184,6 +190,10 @@ article {
 	margin-bottom: 0;
 }
 
+.invisible {
+	display: none;
+}
+
 /*********   nav   **********/
 
 nav {
@@ -223,7 +233,12 @@ nav {
 	}
 	#selected_poke_list ul {
 		padding: 5px 40px;
-
+	}
+	#low {
+		visibility: visible;
+	}
+	#high {
+		display: none;
 	}
 }
 
