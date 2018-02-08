@@ -127,14 +127,6 @@ article {
 	display: block;
 }
 
-/* #selected-pokemon-property {
-	display: inline-block;
-	border: 1px solid;
-	vertical-align: top;
-	float: left;
-	width: 69%;
-} */
-
 .selected_poke_name {
 	background-color: rgb(94, 143, 204);
 	border: 1px solid black;
@@ -149,7 +141,6 @@ article {
 	visibility: hidden;
 }
 
-
 #selected_poke_list {
 	width: 100%;
 	float: left;
@@ -157,7 +148,7 @@ article {
 	border: 1px solid;
 	/* padding: 5px 40px; */
 	/* height: 100px; */
-	margin-top: 5px;
+	/* margin-top: 5px; */
 	/* font-size: 24px; */
 }
 
@@ -222,9 +213,9 @@ nav {
 	#pokemon-list {
 		width:500px;
 	}
-	/* #selected_poke_name {
-		width: 60%;
-	} */
+	.selected_poke_name {
+		width: 69%;
+	}
 	#selected_poke_list {
 		width: 69%;
 	}
@@ -251,7 +242,7 @@ nav {
 	}
 	#selected_poke_list {
 		width: 69%;
-		margin-top: 0px;
+		/* margin-top: 0px; */
 	}
 	#pokeball{
 		visibility: visible;
