@@ -1,0 +1,123 @@
+header {
+	height: 60px;
+}
+
+
+#hamburger{
+	display: inline-block;
+}
+
+#hamburger img {
+	width: 25px;
+}
+
+#dropdown {
+	display: none;
+}
+
+#dropdown-menu {
+	width: 60px;
+	float: left;
+}
+
+#site-title-container {
+    margin-right: 60px;
+    width: 90%;
+}
+
+#site-title {
+    line-height: 55px;
+
+}
+
+#pokemon-list {
+	width:100%;
+	margin: 0;
+}
+
+.pokemon-pic {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.pokemon-pic img {
+	width:49%;
+}
+
+.selected-pokemon {
+	width: 90%;
+}
+
+.pokemon-name {
+	display: block;
+	box-sizing: border-box;
+	padding: 5px 20px;
+	border: solid black;
+}
+
+#selected-pokemon-pic {
+    display: block;
+    width: 75%;
+}
+
+#button button {
+    width: 30px;
+    height: 30px;
+    background-image: url("assets/icons/hamburger_icon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+#pokeball {
+	display : none;
+}
+
+.search-box {
+	width: 90%;
+}
+
+#selected-pokemon-property {
+    display: block;
+    width: 100%;
+}
+
+#selected-pokemon-property th {
+    display: none;
+}
+
+#selected-pokemon-property tr {
+    border: 2px solid black;
+}
+
+
+ nav {
+    width: 100%;
+}
+
+.nav-button2 {
+	display: inline-block;
+	padding: 15px 5%;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	display: none;
+}
+
+.nav-button {
+	display: inline-block;
+	padding: 15px 5%;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ nav a {
+    width: 25%;
+ }
+
+footer {
+	display: none;
+}
