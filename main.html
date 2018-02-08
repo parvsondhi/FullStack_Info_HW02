@@ -11,8 +11,9 @@
 	<body>
 		<!-- include a header tag -->
 		<header>
-			<a href="#pokemon-name">
+			<a href="#selected-pic">
 				<button>Dropdown</button>
+				<img src="assets/icons/hamburger_icon.png">
 			</a>
 			<h1>Pokedex</h1>
 			<img src="assets/icons/pokeball_icon.png">
@@ -23,28 +24,53 @@
 		</section>
 
 		<section>
+			<div id="namebox-top">
+				<span class="selected-namebox">
+					<h2>No. 001 Pikachu</h2>
+				</span>
+			</div>
+			<br/>
 			<span id="selected-pic">
 				<img src="assets/images/pikachu.png" >
 			</span>
-			<span id="selected-namebox">
-				<article>
-					<h2 id="pokemon-name">No. 001 Pikachu</h2>
-					<p id="pokemon-attributes">
-						<ul>
+			<div id='center-namebox'>
+				<span class="selected-namebox">
+					<article>
+						<h2 id="namebox-right" >No. 001 Pikachu</h2>
+						<ul id="pokemon-attributes">
 							<li>Electric type</li>
 							<li>Gentle temperment</li>
 							<li>Grasslands</li>
 						</ul>
-					</p>
-				</article>
-			</span>
-			<article>
-				<p id="pokemon-description">
+					</article>
+				</span>
+			</div>
+			<article id="pokemon-description">
+				<p>
 					Pickahu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
-				</o>
+				</p>
 			</article>
 		</section>
 
+		<footer id='footer-iphone'>
+			<nav>
+				<a href="#pokemon-attributes">
+					<button>BACK</button>
+				</a>
+			</nav><nav>
+				<a href="map.html">
+					<button>MAP</button>
+				</a>
+			</nav><nav>
+				<a href="area.html">
+					<button>AREA</button>
+				</a>
+			</nav><nav>
+				<a href="#pokemon-description">
+					<button>NEXT</button>
+				</a>
+			</nav>
+		</footer>
 		<section id="pokemon-grid">
 			<div>
 				<img src="assets/images/whatisthat.png">
@@ -58,9 +84,7 @@
 				<img src="assets/images/clafary.png">
 			</div><div>
 				<img src="assets/images/charmeleon.png">
-			</div>
-
-			<div>
+			</div><div>
 				<img src="assets/images/charmander.png">
 			</div><div>
 				<img src="assets/images/firething.png">
@@ -74,7 +98,7 @@
 				<img src="assets/images/wartortle.png">
 			</div>
 		</section>
-		<footer>
+		<footer id='footer'>
 			<nav>
 				<a href="#pokemon-attributes">
 					<button>BACK</button>

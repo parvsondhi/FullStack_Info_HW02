@@ -42,6 +42,10 @@ header {
 	text-align: center;
 }
 
+header a img{
+	display: none;
+}
+
 header button{
 	float:left;
 }
@@ -95,23 +99,37 @@ html {
 	width:70%;
 }
 
-#selected-namebox h2{
+.selected-namebox h2{
 	background:	#5A90CC;
 	font-size: 120%;
 	color: white;
 	padding: 10px 0px 10px 30px;
 }
 
-#selected-namebox ul{
+.selected-namebox ul{
 	padding: 15px 0px 15px 50px;
 	background: white;
 }
 
-#selected-namebox{
+#center-namebox{
+	width:58%;
+}
+
+.selected-namebox{
+	width: 100%;
 	border: 1px solid black;
 	margin: 0px 0px 0px 0px;
-	width:58%;
 	display: inline-block;
+}
+
+#namebox-top{
+	display: none;
+	text-align: center;
+}
+
+#namebox-top .selected-namebox{
+	width: 80%;
+
 }
 
 #pokemon-description{
@@ -138,6 +156,27 @@ html {
 	vertical-align: middle;
 }
 
+@media (max-width: 768px) {
+	#pokemon-grid div{
+		width: 25%;
+	}
+	#namebox-top{
+		display: block;
+	}
+	#namebox-right{
+		display: none;
+	}
+}
+
+#center-namebox{
+	display: inline-block;
+}
+
+
+#footer-iphone{
+	display: none;
+}
+
 nav{
 	display: inline-block;
 	width:25%;
@@ -155,3 +194,54 @@ section {
 	display: block;
 }
 
+
+
+@media (max-width: 375px) {
+	#sidebox{
+		display: none;
+	}
+	#selected-pic{
+		width: 100%;
+	}
+	.selected-namebox{
+		text-align: left;
+		width: 80%;
+	}
+	#center-namebox{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0px 20px 0px;
+	}
+	#pokemon-description{
+		display: none;
+	}
+	#pokemon-grid div{
+		width: 50%;
+	}
+
+	#footer-iphone{
+		display: block;
+	}
+	#footer-iphone nav{
+		width:50%;
+		text-align: center;
+	}
+	#footer{
+		display: none;
+	}
+	#footer-iphone nav button{
+		display: block;
+		width: 80%;
+	}
+	header button{
+		display: none;
+	}
+	header a img{
+		display: inline;
+		float:left;
+	}
+	header img{
+		display: none;
+	}
+}
