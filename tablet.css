@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+body{
+	/*background: linear-gradient(black, white);*/
+	background: url(".//assets/backgrounds/background_home.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+/*********   header   **********/
+header, footer {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	text-align: center;
+
+}
+header {
+	background: #e0747f;
+}
+
+footer {
+	background: #6db2e0;
+	/*margin-top: 2em;*/
+	clear: both;
+	/*position:absolute;*/
+	bottom:0; /*idk how this works*/
+}
+
+
+#hamburger {
+	display: none;
+}
+
+button {
+	display: inline-block;
+	width: 15%;
+	border: 1px solid;
+	border-radius: 5px;
+	text-align: center;
+	font-size:20px;
+	margin: 15px;
+	background: #c5dbe0;
+}
+
+#dropdown {
+	float: left;
+}
+
+header span {
+	color: #ffffff;
+	display: inline-block;
+	float: center;
+	background: none;
+	border:none;
+	font-size: 28px;
+	margin-top: 15px;
+
+}
+
+header img{
+	display: inline-block;
+	margin: 4px;
+	float: right;
+	height: 50px;
+	background: none;
+	border: none;
+}
+
+
+/*********   article   **********/
+article {
+	background: #ffffff;
+	border: 8px solid;
+	border-radius: 16px;
+	border-color: #BD5858;
+	margin: 15px;
+}
+article p{
+	margin: 35px;
+	font-size:20px;
+}
+a {
+  /*color: blue;*/
+  text-decoration: none; /* no underline */
+}
+
+
+/*********   section   **********/
+section {
+	margin: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section div {
+	display: inline-block;
+}
+
+#search {
+	background: white;
+	border: 1px solid;
+}
+
+#search p {
+	margin: 10px; 
+	margin-left: 15px;
+	font-size: 22px;
+	font-weight: 350; 
+	color: #7f7f7f;
+}
+
+
+
+#selected-pokemon div {
+	/*height: 200px;*/
+	display: inline-block;
+	width: 40%;
+}
+#selected-img {
+		display: inline-block;
+
+	width: 40%;
+
+}
+
+#selected-pokemon img {
+	height: 40%;
+}
+
+#selected-info {
+		display: inline-block;
+
+	width: 40%;
+	margin-left: 20px;
+}
+
+table {
+	border: 1px solid  #000000;
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    padding-left: 40px;
+}
+th	{
+	background: #5D90CB;
+	border: none ;	
+	/*border-color: #000000;*/
+	color: #ffffff;
+	height: 30px;
+	font-size:25px;
+}
+td{
+	background: #ffffff;
+	height: 20px;
+	font-size:20px;
+
+}
+
+
+li {
+	display: inline;
+ 	vertical-align: bottom;
+}
+
+li img {
+	display: inline-table;
+	width: 23.5%;
+	height: 12em;
+	padding: 0;
+	border: 1px solid;	
+	object-fit: cover;
+}
+#hidden{
+	width: 100%;
+}
+
+#C2{
+	display: none;
+}
+
+#middle{
+	display: none;
+}
+
+}
