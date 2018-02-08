@@ -1,0 +1,59 @@
+
+#deets-title{
+	display: none;
+}
+
+#deets-title-ipad{
+	display: block;
+}
+
+#deets-title-ipad{
+	
+	font-family: Arial;
+	padding:2% 6%;
+	color: white;
+	background: #5D90CB;
+
+	width: 90%;
+	margin: 2% 5%;
+	
+	box-sizing: border-box;
+	font-size: 0.90em;
+	font-weight: bold;
+}
+
+#deets-deets{
+	height: 100%;
+	font-size: 1.1em;
+	padding: 6% 6%;
+
+}
+
+
+
+#poke-sect{
+	display: block;
+}
+	
+.other-pokemon{
+	display: block;
+}
+
+#poke-image{
+
+}
+
+#poke{
+
+}
+
+#poke { 
+	display: inline-block;
+	margin: auto;
+	width: 24.4%; 
+	height: 24.4%; 
+	border: solid 1px black;
+	margin-right: -4px;
+	margin-bottom: -4px;
+	
+}

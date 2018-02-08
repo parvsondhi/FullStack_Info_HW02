@@ -1,0 +1,9 @@
+.other-news-item{
+	display: inline-block;
+	width: 49%;
+}
+
+.other-news-item img{
+	object-fit: contain ;
+}
+
