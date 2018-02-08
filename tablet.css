@@ -1,0 +1,41 @@
+#pokemon-list {
+	width: 100%;
+}
+
+.pokemon-pic img {
+	display: inline-block;
+	width:24%;
+	margin: 0 auto;
+}
+
+#selected-pokemon-pic img{
+	width: 80%;
+}
+
+#selected-pokemon-property {
+	margin-top: 8%;
+}
+
+#selected-pokemon-property tr {
+	border-top: 1px solid #000000;
+}
+
+#selected-pokemon-property th {
+	display: none;
+}
+
+.search-box {
+	width: 95%;
+}
+
+.selected-pokemon {
+	width: 95%;
+}
+
+.pokemon-name {
+	display: block;
+	padding: 2%;
+	padding-left: 5%;
+	text-align: left;
+	font-size: 24px;
+}
