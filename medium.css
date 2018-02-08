@@ -22,14 +22,15 @@ header {
 	display: grid;
 	background-color: #5D90CB;
   color: white;
-	text-align: center;
+	text-align: left;
 	padding: 3px 18px;
+	width: 90%;
 }
 
 .pokemon-type-detail-med{
 	display: inline-block;
 	background-color: white;
-	padding: 5px 40px;
+	padding: 25px 40px;
 	height: 70px;
 	width: 40%;
 	border-collapse: collapse;
@@ -43,4 +44,8 @@ header {
 .pokemon-pic-picked img{
 	display: inline-block;
 	height: 150px;
+}
+
+#pokemon-description {
+	margin-top: -20px;
 }
