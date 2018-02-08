@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	font-family: "Verdana";
+	font-size: 30px;
+	background: url("assets/backgrounds/background_home.png");
+}
+
+/*********   header   **********/
+header {
+	width: 100%;
+	background-color: #CB4952;
+	display: inline-block;
+}
+
+#site-title {
+	margin-top: 25px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Verdana";
+	color: #ffffff;
+	font-size: 150%;
+}
+
+
+#navigation {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#pokeball {
+	float: right;
+	margin-right: 5%;
+}
+
+#hamburger {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-left: 5%;
+}
+
+#searchbar {
+	width: 80%;
+	height:45px;
+	font-size: 100%;
+	padding-left: 30px;
+}
+form {
+	margin-top: 40px;
+}
+
+#pokemon {
+	background-color: #558DCF;
+	font-size: 40px;
+	color: white;
+	padding-left: 40px;
+}
+
+#info {
+	width: 60%;
+	height: 230px;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 70px;
+	float: right;
+	margin-right: 10%;
+}
+
+#description {
+	font-size: 25px;
+	border-radius: 25px;
+	border: 10px solid #CB4952;
+	padding: 20px;
+	width: 80%;
+	height: 150px;
+
+}
+
+#pokemon-ipad {
+	display: none;
+}
+
+#pikachu {
+	padding: 40px;
+	margin-left: 5%;;
+}
+
+#attributes {
+	font-size: 25px;
+	padding: 40px;
+	background-color: white;
+}
+
+.pokemon-list {
+	margin: 40px;
+	margin-left: 8%;
+}
+.column{
+	display: inline-block;
+	float: left;
+	border: 2px solid black;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	height:80px;
+	background-color: #558DCF;
+	text-align: center;
+
+}
+
+footer {
+	margin-top: 10px;
+	background: #538cc6;
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+}
+
+
+#nav {
+	display: none;
+}
+.nav-button {
+	font-size: 24px;
+    display: inline-block;
+	padding: 15px 5%;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;;
+}
+
+.nav-button:hover {
+	background: #80b3ff;
+}
+
+.nav-button-mobile {
+    display: none;
+}
