@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+
+}
+
+body {
+	background-image: url("assets/backgrounds/background_home.png");
+}
+
+a {
+	text-decoration: none;
+}
+
+/*********   header   **********/
+header {
+	background-color: #a44;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+header h1 {
+	position: relative;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#dropdown {
+	float: left;
+	margin: -20px 20px;
+	font-size: 20px;
+	display: none;
+}
+
+#hamburger {
+	float: left;
+	margin: -30px 40px;
+	width: 60px;
+}
+
+#pokeball {
+	float: right;
+	margin: -50px 20px;
+	display: none;
+}
+
+#searchpokemon {
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+	width: 89%;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.pokemon-name {
+	text-align: center;		
+	background-color: #59f;
+	color: #fff;
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+/*********   article   **********/
+
+.pikachu-pic {
+	text-align: center;
+	margin: 0 auto;	
+	display: inline-block;
+}
+
+article {
+	/*border-collapse: collapse;*/
+	/*position: relative;*/
+	width: 90%;
+	border: 1px solid #000000;
+	/*top: 50%;*/
+	/*transform: translateY(-40%);*/
+}
+
+article h2 {
+	display: none;
+	background-color: #59f;
+	height: 50px;
+	color: #fff;
+	font-size: 30px;
+	padding: 3px 35px;
+}
+
+article ul {
+	background-color: #fff;
+	padding: 25px;
+	list-style: none;
+}
+
+article ul li:before {
+	content: "- ";
+}
+
+article ul li {
+	margin: 0 30px;
+	font-size: 20px;
+}
+
+/*********   section   **********/
+section {
+	display: none;
+	margin: 10px;
+	background-color: #fff;
+	border: 7px solid #a44;
+	border-radius: 10px;
+}
+
+section p {
+	margin: 10px;
+}
+
+p span {
+	color: #eec;
+	font-weight: 700;
+}
+
+div {
+	width: 100%;
+}
+
+.col-l-4 {
+	border: 1px solid black;	
+	display: none;
+}
+
+.col-2 {
+	border: 1px solid black;	
+ 	display: none;
+ }
+
+/*********   nav   **********/
+
+nav {
+	background-color: #59f;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.footerbutton {
+	margin: 40px 10px;
+	width: 15%;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.col-m-6 {
+	border: 1px solid black;
+	width: 48%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    #hamburger {display: none;}
+    #dropdown {display: inline-block;}
+    #pokeball {display: inline-block;}
+
+	.pikachu-pic {width: 30%;}
+	article {display: inline-block; width: 60%;}
+
+    section {display: block;}
+    .col-m-6 {display: none;}
+    .col-l-4 {display: inline-block; width: 24%;}
+}
+
+@media only screen and (min-width: 1024px) {
+    .pokemon-name {display: none;}
+    article h2 {display: block;}
+    .col-2 {width: 16%;}
+}
