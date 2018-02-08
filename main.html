@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" media="(max-width: 850px)" href="ipad.css">
+		<!-- <link rel="stylesheet" media="(max-width: 750px)" href="medium.css"> -->
+		<link rel="stylesheet" media="(max-width: 450px)" href="iphone.css">
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			<nav>
+				<a href="main.html"><img id="hamburger" src="assets/icons/hamburger_icon.png" alt="Hamburger Icon"></a>
+			</nav>
+			<h1>Pokedex</h1>
+			<img src="assets/icons/pokeball_icon.png" id="Pokeball" alt="Pokeball">
+		</header><!-- /header -->
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+			<!-- 1) search box -->
+		<main>
+		<section>
+			<input type="search" name="Searchbox" value="" placeholder="Search Pokemon">
+		</section>
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+		<section>
+			<img id="Pikachu" src="assets/images/pikachu.png" alt="Pikachu">
+			<div id= "infobox">
+				<h2>No. 001 Pikachu</h2>
+				<img id="Pikachu2" src="assets/images/pikachu.png" alt="Pikachu">
+				<ul>
+					<li>Electric Type</li>
+					<li>Gentle temperament</li>
+					<li>Grasslands</li>
+				</ul>
+			</div>
+
+			<article id = "description">
+				<p>
+					<span>Pikachu</span> can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css <span>Pikachu</span> can learn confusion. <span>Pikachu</span> likes to steal computer chargers from sleeping college students.
+				</p>
+			</article>
+
+			<section id="altFooter">
+			<nav>
+				<ol>
+					<li><button><a href="area.html" title="AREA">AREA</a></button></li>
+					<li><button><a href="#Pikachu" title="BACK">BACK</a></button></li>
+					<li><button><a href="#hamburger" title="INFO">INFO</a></button></li>
+					<li><button><a href="map.html" title="MAP">MAP</a></button></li>
+				</ol>
+			</nav>
+		</section>
+
+		</section>
+			<!-- 3) other pokemon pictures in 2x6 format -->
+
+
+		<section id="pokemonGrid">
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/whatisthat.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/abra.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/vulpix.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/nidorino.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/clafary.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/charmeleon.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/charmander.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/firething.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/jigglypuff.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/horsea.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/pidgey.png">
+			</div>
+			<div class="pokemonDiv">
+				<img class="pokemon" src="assets/images/wartortle.png">
+			</div>
+		</section>
+
+<!-- 			<div class="grid">
+				<img src="assets/images/whatisthat.png" alt="What is that Pokemon">
+				<img src="assets/images/abra.png" alt="Abra Pokemon">
+				<img src="assets/images/vulpix.png" alt="Vulpix Pokemon">
+				<img src="assets/images/nidorino.png" alt="Nidorino Pokemon">
+				<img src="assets/images/clafary.png" alt="Clafary Pokemon">
+				<img src="assets/images/charmeleon.png" alt="Charmeleon Pokemon">
+				<img src="assets/images/charmander.png" alt="Charmander Pokemon">
+				<img src="assets/images/firething.png" alt="Firething Pokemon">
+				<img src="assets/images/jigglypuff.png" alt="Jigglypuff Pokemon">
+				<img src="assets/images/horsea.png" alt="Horsea Pokemon">
+				<img src="assets/images/pidgey.png" alt="Pidgey Pokemon">
+				<img src="assets/images/wartortle.png" alt="Warturtle Pokemon">
+			</div>
+		</section> -->
+		</main>
+
+		<!-- include navigation buttons -->
+		<footer id='bottomFooter'>
+			<nav>
+				<ol>
+					<li><button><a href="#Pikachu" title="BACK">BACK</a></button></li>
+					<li><button><a href="map.html" title="MAP">MAP</a></button></li>
+					<li><button><a href="area.html" title="AREA">AREA</a></button></li>
+					<li><button><a href="#hamburger" title="NEXT">NEXT</a></button></li>
+				</ol>
+			</nav>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+}
+
+main {
+	background-image: url("assets/backgrounds/background_home.png");
+	background-size: cover;
+}
+
+
+/*********   header   **********/
+header {
+	background-color: rgb(171, 66, 70);
+	height:50px;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+}
+
+#hamburger {
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+#Pokeball {
+	height: 50px;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+}
+
+/*********   article   **********/
+article {
+
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+
+
+/*********   section   **********/
+section {
+	padding-top: 3%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 15pt;
+    padding-left: 20px;
+}
+
+#Pikachu {
+	height: 200px;
+	display: inline-block;
+	float: left;
+	padding-left: 5%;
+}
+
+#Pikachu2 {
+	display: none;
+}
+
+h2 {
+	background-color: rgb(75, 120, 187);
+	color: white;
+	vertical-align: middle;
+	font-weight: bolder;
+	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: 500;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#infobox {
+	display: inline-block;
+	float: right;
+    width: 60%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}
+
+ul {
+	padding-top: 20px;
+    list-style: none;
+    padding-left: 40px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+ul > li {
+    list-style-position: inside;
+    text-align: left;
+    font-size: 20pt;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+}
+
+ul > li::before {
+    content: "- ";
+}
+
+#description {
+	clear: both;
+	margin-top: 0px;
+	border-style: solid;
+	border-color: rgb(171, 66, 70);
+	border-width: 8px;
+	border-radius: 20px;
+	background-color: white;
+	vertical-align: middle;
+	font-weight: bolder;
+	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: 500;
+	width: 95%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#pokemonGrid {
+	width:100%;
+}
+.pokemonDiv {
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width:17.09%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	margin-left: -1%;
+	background-color: white;
+}
+
+.pokemon {
+	width:100%;
+}
+
+/*.grid {
+	display: block;
+	background-color: black;
+	text-align: center;
+	padding-top: 3px;
+	margin-left: 28px;
+	margin-right: 28px;
+}*/
+
+img {
+	width: auto;
+}
+
+
+/*********   nav   **********/
+
+footer {
+	width: 100%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+nav > ol {
+  background-color: rgb(75, 120, 187);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ol > li::before {
+	content: none;
+}
+
+nav > ol > li {
+	display: inline;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	background-color: rgb(223, 238, 239);
+	text-align: center;
+	border-radius: 5px;
+	font-size: 15pt;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#map {
+	text-align: center; 
+	display: block; 
+	padding-bottom: 20px;
+}
+
+#altFooter {
+	display: none;
+}

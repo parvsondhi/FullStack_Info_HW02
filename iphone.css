@@ -1,0 +1,75 @@
+section {
+	margin-top: 0px;
+}
+
+#Pokeball {
+	display: none;
+}
+
+#description {
+	display: none;
+}
+
+#Pikachu {
+	display: none;
+}
+
+#Pikachu2 {
+	display: inline-block;
+	height: 150px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#infobox {
+	display: block;
+	float: none;
+    width: 90%;
+    clear: both;
+	border-style: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+h2 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+ul {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	padding-bottom: 20px;
+}
+
+#bottomFooter {
+	display: none;
+}
+
+#altFooter {
+	display: block;
+}
+
+button {
+	background-color: rgb(223, 238, 239);
+	display: inline-block;
+	width: 120px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 7px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+nav > ol {
+	width: 100%;
+	display: inline-block;
+}
+
+.pokemonDiv {
+	width: 49%;
+}
