@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 768px") type="text/css" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1024px") type="text/css" href="css/desktop.css">
+    <!-- make sure to link to your css file -->
+  </head>
+  <body>
+    <!-- include a header tag -->
+    <header class="flex-container">
+      <div class="flex-item">
+        <button class="nav-button" onclick="window.location.href='#selected'">Dropdown</button>
+        <img class="nav-icon" src="icons/hamburger_icon.png">
+      </div>
+      <div class="flex-item"><span>Pokedex</span></div>
+      <div class="flex-item"><img class="nav-logo" src="icons/pokeball_icon.png"></div>
+    </header>
+    
+    <div class="container">
+    <!-- search box -->
+    <section class="search-box">
+      <input id="search" type="search" placeholder="Search Pokemon" required>
+    </section>
+
+    <!--  selected pokemon -->
+    <section class="selected-pokemon" id="selected">
+      <div class="flex-container">
+        <div class="textbox-title small medium">No.001 Pikachu</div>
+        <div class="selected-img"><img src="img/pikachu.png"></div>
+        <div class="contentbox large">
+          <div class="textbox-title">No.001 Pikachu</div>
+          <div class="textbox-content">
+            <ul>
+              <li>- Electric type</li>
+              <li>- Gentle temperment</li>
+              <li>- Grasslands</li>
+            </ul>
+          </div>
+        </div>
+        <div class="textbox-content small medium">
+          <ul>
+            <li>- Electric type</li>
+            <li>- Gentle temperment</li>
+            <li>- Grasslands</li>
+          </ul>
+        </div>
+      </div>
+      <article>
+        <p>
+          Pickachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+        </p>
+      </article>
+    </section>
+  </div>
+    <!--  other pokemon pictures in 2x6 format -->
+    <section class="other-pokemon medium large">
+      <div class="flex-container">
+        <div class="pokemon-img"><img src="img/whatisthat.png"></div>
+        <div class="pokemon-img"><img src="img/abra.png"></div>
+        <div class="pokemon-img"><img src="img/vulpix.png"></div>
+        <div class="pokemon-img"><img src="img/nidorino.png"></div>
+        <div class="pokemon-img"><img src="img/clafary.png"></div>
+        <div class="pokemon-img"><img src="img/charmeleon.png"></div>
+        <div class="pokemon-img"><img src="img/charmander.png"></div>
+        <div class="pokemon-img"><img src="img/firething.png"></div>
+        <div class="pokemon-img"><img src="img/jigglypuff.png"></div>
+        <div class="pokemon-img"><img src="img/horsea.png"></div>
+        <div class="pokemon-img"><img src="img/pidgey.png"></div>
+        <div class="pokemon-img"><img src="img/wartortle.png"></div>
+      </div>
+    </section>
+  
+    <!-- include navigation buttons -->
+    <footer>
+      <nav class="navigation flex-container small">
+        <div class="flex-item"><a href="area.html" class="button right">AREA</a></div>
+        <div class="flex-item"><a href="#selected" class="button left">BACK</a></div>
+        <div class="flex-item"><a href="#selected" class="button right">INFO</a></div>
+        <div class="flex-item"><a href="map.html" class="button left">MAP</a></div>
+      </nav>
+      <nav class="navigation flex-container medium">
+        <div class="flex-item"><a href="#selected" class="button">INFO</a></div>
+        <div class="flex-item"><a href="map.html" class="button">MAP</a></div>
+        <div class="flex-item"><a href="area.html" class="button">AREA</a></div>
+        <div class="flex-item"><a href="#selected" class="button">BACK</a></div>
+      </nav>
+      <nav class="navigation large">
+        <a href="#selected" class="button">BACK</a>
+        <a href="map.html" class="button">MAP</a>
+        <a href="area.html" class="button">AREA</a>
+        <a href="#selected" class="button">NEXT</a>
+      </nav>
+    </footer>
+    <section class="other-pokemon small">
+        <div class="flex-container">
+          <div class="pokemon-img"><img src="img/nidorino.png"></div>
+          <div class="pokemon-img"><img src="img/horsea.png"></div>
+          <div class="pokemon-img"><img src="img/wartortle.png"></div>
+          <div class="pokemon-img"><img src="img/clafary.png"></div>
+          <div class="pokemon-img"><img src="img/charmeleon.png"></div>
+          <div class="pokemon-img"><img src="img/vulpix.png"></div>
+          <div class="pokemon-img"><img src="img/jigglypuff.png"></div>    
+          <div class="pokemon-img"><img src="img/firething.png"></div>
+          <div class="pokemon-img"><img src="img/abra.png"></div>
+          <div class="pokemon-img"><img src="img/whatisthat.png"></div>
+          <div class="pokemon-img"><img src="img/charmander.png"></div>
+          <div class="pokemon-img"><img src="img/pidgey.png"></div>
+        </div>
+      </section>
+  </body>
+</html>
