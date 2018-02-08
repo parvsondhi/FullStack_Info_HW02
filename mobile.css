@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	font-family: "Verdana";
+	font-size: 30px;
+	background: url("assets/backgrounds/background_home.png");
+}
+
+/*********   header   **********/
+header {
+	width: 100%;
+	background-color: #CB4952;
+	display: inline-block;
+}
+
+#site-title {
+	margin-top: 5px;
+    display: inline-block;
+	font-family: "Verdana";
+	color: #ffffff;
+	font-size: 90%;
+}
+
+
+#navigation {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#pokeball {
+    display: none;
+}
+
+#hamburger {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 5%;
+}
+
+#searchbar {
+	width: 80%;
+	height:45px;
+	font-size: 60%;
+	padding-left: 30px;
+}
+form {
+	margin-top: 40px;
+}
+
+#pokemon {
+    display: none;
+}
+
+#info {
+    display: inline-block;
+	width: 80%;
+	height: 85px;
+    border: 2px solid black;
+    margin-top: -50px;
+    
+}
+
+#description {
+    display: none;
+
+}
+
+#pokemon-ipad {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 20px;
+	background-color: #558DCF;
+    font-size: 20px;
+    text-align: center;
+	color: white;
+}
+
+#pikachu {
+    align-content: center;
+    margin: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+#attributes {
+    font-size: 15px;
+	padding: 15px;
+    background-color: white;
+}
+
+.pokemon-list {
+    margin: 0px;
+	margin-left: 12%;
+}
+.column{
+	display: flex;
+    border: 2px solid black;
+}
+
+.column img {
+	display: inline-block;
+	width:100pt;
+	margin: 0 auto;
+}
+footer {
+	display: inline-block;
+	width: 100%;
+	height:80px;
+	background-color: #558DCF;
+	text-align: center;
+
+}
+
+footer {
+    display: none;
+}
+
+#nav {
+    display: block;
+	background: #538cc6;
+	vertical-align: middle;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-button:hover {
+	background: #80b3ff;
+}
+
+.nav-button-mobile {
+    font-size: 12px;
+    display: inline-block;
+    width: 30%;
+	padding: 10px 5%;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
