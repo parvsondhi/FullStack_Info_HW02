@@ -1,0 +1,51 @@
+.search-box {
+	text-align: center;
+	width: 90%;
+}
+
+.selected-pokemon {
+	width: 90%;
+}
+.pokemon-name {
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #538cc6;
+}
+
+#selected-pokemon-pic {
+	display: inline-block;
+	width:30%;
+    height: auto;
+	margin: 0 auto;
+}
+
+#selected-pokemon-property th {
+    display: none;
+}
+
+#selected-pokemon-property {
+    display: inline-block;
+    width: 68%;
+    border: 1px solid #000000;
+    vertical-align: middle;
+
+
+}
+table {
+    border: none;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+#pokemon-list {
+    width: 100%;
+    background-color: #403E3E;
+}
+
+#pokemon-list img {
+    padding: 1px;
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" media="(min-width: 450px) and (max-width: 850px)" href="medium.css">
+    <link rel="stylesheet" media="(max-width: 450px)" href="mobile.css">
+	
+    
+<!--bootstrap-->    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+	<header>
+		<div class="header-element" id="dropdown-menu">
+			<a class="nav-button" id="dropdown" href="#">DROPDOWN</a>
+			<a href="#"><img id="hamburger" src="assets/icons/hamburger_icon.png" alt="menu"></a>
+		</div>
+
+		<div class="header-element" >
+			<h2 id="site-title">Pokedex</h2>
+		</div>
+
+		<div class="header-element" id="pokeball">
+			<img src="assets/icons/pokeball_icon.png">
+		</div>
+	</header>
+
+
+	<article class="main-component" id="pokedex-main-component">
+		<!-- search box -->
+		<div class="search-box">
+			<input type="text" name="pokemon-search" value="Search Pokemon">
+		</div>
+
+		<!-- selected pokemon: picture, property and description -->
+		<section class="selected-pokemon">
+			<div class="pokemon-name">
+				No.001 Pikachu
+			</div>
+			<div class="pokemon-pic" id="selected-pokemon-pic">
+				<img src="assets/images/pikachu.png">
+			</div>
+
+			<div id="selected-pokemon-property">
+				<table>
+					<tr>
+						<th>No.001 Pikachu</th>
+					</tr>
+					<tr>
+						<td>
+                            <ul>
+                                <li>Electric Type</li>
+                                <li>Gentle Temperment</li>
+                                <li>Grasslands</li>
+                            </ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<div id="selected-pokemon-description">
+				Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+			</div>
+		</section>
+		<!-- other pokemon pictures -->
+        <div class="wrapper">
+            <section class="pokemon-pic" id="pokemon-list">
+                <img src="assets/images/abra.png">
+                <img src="assets/images/charmander.png">
+                <img src="assets/images/charmeleon.png">
+                <img src="assets/images/clafary.png">
+                <img src="assets/images/firething.png">
+                <img src="assets/images/horsea.png">
+                <img src="assets/images/jigglypuff.png">
+                <img src="assets/images/nidorino.png">
+                <img src="assets/images/pidgey.png">
+                <img src="assets/images/vulpix.png">
+                <img src="assets/images/wartortle.png">
+                <img src="assets/images/whatisthat.png">
+           </section>
+            <!-- navigation buttons -->
+            <nav>
+                <a class="nav-button" href="#">BACK</a>
+                <a class="nav-button" href="map.html">MAP</a>
+                <a class="nav-button" href="area.html">AREA</a>
+                <a class="nav-button" href="#">NEXT</a>
+            </nav>
+        </div>
+    </article>
+    
+</body>
+</html>
