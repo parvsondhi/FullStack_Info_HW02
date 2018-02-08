@@ -1,0 +1,71 @@
+.button {
+	display: none;
+}
+
+.hamburger{
+	display: inline-block;
+	float: left;
+	margin: 20px 0px 20px 20px;
+}
+
+.hamburger img{
+	width: 20px;
+	height: 20px;
+}
+
+.pokeball-div{
+	display: none;
+}
+
+.main-display{
+	width: 70%;
+}
+
+.main-description{
+	display: none;
+}
+
+.main-stats{
+	width: 100%;
+}
+
+.main-stats p{
+	margin: 20px;
+	font-size: 15px;
+}
+
+footer{
+	display: none;
+}
+
+
+.grid-pictures{
+	display: inline-block;
+	margin-right: -100px;
+	margin-top: -20px;
+}
+
+.grid-pictures img {
+	width: 60%;
+	height: auto;
+	border: 2px solid black;
+}
+
+.iphonefooter{
+	display: block;
+	margin-top: 25px;
+}
+
+.iphone-navbutton{
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.iphone-navbutton button{
+	width: 100px;
+}
+
+form{
+	margin-top: 150px;
+}

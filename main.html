@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" media="(max-width: 768px)" href="ipad.css">
+		<link rel="stylesheet" media="(max-width: 375px)" href="iphone.css">
+
+
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			<div class="button">
+				<button type="button" class="dropdown">Dropdown</button>
+			</div>
+
+			<div class="hamburger">
+				<img src="assets/icons/hamburger_icon.png">
+			</div>
+
+			<div class ="site-title-div">
+				<h1 class="site-title">Pokedex</h1>
+			</div>
+			<div class ="pokeball-div">
+				<img class="pokeball" src="./assets/icons/pokeball_icon.png">
+			</div>
+		</header>
+
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+		<article>
+			<!-- 1) search box -->
+			<section class="search-box">
+				<input class ="search-pokemon" type="text" placeholder="Search Pokemon">
+			</section>
+
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section>
+				<h3>No. 001 Pikachu</h3>
+
+				<div class="main-display">
+					<img src="./assets/images/pikachu.png">
+				</div>
+
+				<div class="main-stats">
+					<h2>No. 001 Pikachu</h2> 
+					<p>- Electric type<br>- Gentle temperment<br>- Grasslands</p>
+				</div>
+
+				<div class="main-description">
+					<p>Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+				</div>
+
+			</section>
+
+			<div class="iphonefooter">
+				<nav>
+				<form method="post">
+					<div class="iphone-navbutton"><button type="submit" formaction="main.html">Back</button></div>
+					<div class="iphone-navbutton"><button type="submit" formaction="map.html">Map</button></div>
+					<div class="iphone-navbutton"><button type="submit" formaction="area.html">Area</button></div>
+					<div class="iphone-navbutton"><button type="submit" formaction="main.html">Next</button></div>
+				</form>
+				</nav>
+			</div>
+
+			<!-- 3) other pokemon pictures in 2x6 format -->
+			<section>
+				<div class="grid-pictures">
+					<img src="./assets/images/whatisthat.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/abra.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/vulpix.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/nidorino.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/clafary.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/charmeleon.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/charmander.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/firething.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/jigglypuff.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/horsea.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/pidgey.png">
+				</div>
+				<div class="grid-pictures">
+					<img src="./assets/images/wartortle.png">
+				</div>
+
+			</section>
+		</article>	
+		
+
+
+		<footer>
+			<nav>
+				<div class="nav-class">
+					<a class="nav-button" href="#">BACK</a>
+				</div>
+
+				<div class="nav-class">
+					<a class="nav-button" href="#">MAP</a>
+				</div>
+
+				<div class="nav-class">
+					<a class="nav-button" href="#">AREA</a>
+				</div>
+
+				<div class="nav-class">
+					<a class="nav-button" href="#">NEXT</a>
+				</div>
+
+			</nav>
+		</footer> 
+
+		<!-- include navigation buttons -->
+
+	</body>
+</html>
