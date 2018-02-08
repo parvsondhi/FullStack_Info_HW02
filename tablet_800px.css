@@ -1,0 +1,135 @@
+/*Hidden sections*/
+#selected-pokemon-image {
+	display: none;
+}
+.pokemon-stats-table {
+	display: none;
+}
+
+.selected-pokemon-section {
+	display: none;
+}
+
+#pokemon-stats-header {
+	display: none;
+}
+
+#pokemon-stats-description {
+	display: none;
+}
+
+#pokemon-stats-description p {
+	display: none;
+}
+
+.pokemon-description {
+	display: none;
+}
+
+.footer_iphone {
+	display: none;
+}
+
+
+/*tablet-specific CSS*/
+
+
+/*Selected pokemon area*/
+.selected-pokemon-section_tablet {
+	width: 80%;
+}
+
+.pokemon-stats-table_tablet {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+
+#selected-pokemon-image_tablet {
+	display: inline-block;
+	width: 33%;
+}
+
+#selected-pokemon-image_tablet img {
+	width: 90%;
+}
+
+#pokemon-stats-header_tablet {
+	display: inline-block;
+	background-color: #5C90CC;
+	padding-top: 5px;
+	font: 15px;
+	color: white;
+	width: 100%;
+	height: 35px;
+	border: solid black 1px;
+}
+
+
+#pokemon-stats-description_tablet {
+	display: inline-block;
+	background-color: white;
+	border: solid black 1px;
+	color: black;
+	font-size: 15px;
+	width: 50%;
+	margin: 20px 5%;
+	font-size: 19px;
+}
+
+#pokemon-stats-description_tablet p {
+	margin: 20px 5%;
+	font-size: 19px;
+}
+
+.pokemon-description_tablet {
+	display: block;
+	border-radius: 15px;
+	border: 5px solid #BE5959;
+	background-color: white;
+	margin: 20px auto;
+	padding: 15px 15px;
+}
+
+/*Other pokemon selection area*/
+.other-pokemon {
+	display: none;
+}
+.other-pokemon img {
+	display: none;
+}
+#pokemon-list {
+	display: none;
+}
+
+.other-pokemon_iphone {
+	display: none;
+}
+
+#pokemon-list_iphone {
+	display: none;
+}
+
+.other-pokemon_tablet {
+	text-align: center;
+}
+
+.other-pokemon_tablet img {
+	display: inline-block;
+	width: 24%;
+	margin: 0 auto; /*indictates that the top/bottom margin is 0, but left/right margins are automatically adjusted to be centered*/
+}
+
+#pokemon-list_tablet {
+	width: 90%;
+	display: block;
+}
+
+.footer_tablet {
+	display: inline-block;
+	width: 100%;
+}
+
+
+ /*Other pokemon section*/
+
