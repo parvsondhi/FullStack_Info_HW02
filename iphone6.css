@@ -1,0 +1,44 @@
+article {
+	width:100%;
+}
+#selectedimg{
+	display: block;
+    margin: auto;
+    padding: none;
+    width: 40%;
+}
+
+#para {
+	display: none
+}
+
+.pokeimg {
+	width: 48%;
+}
+
+#info {
+	display: block;
+	width: 100%
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#regnav {
+	display: none
+}
+
+#iphonenav{
+	display: block;
+	background-color: #5A8AC1;
+	width: 100%;
+}
+
+#iphone-button { 
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-left: 16%;
+	margin-right: 16%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
