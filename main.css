@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	margin:auto;
+}
+
+/*********   header   **********/
+header {
+	background-color: #BF5C5B;
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+}
+
+/*********   article   **********/
+article {
+	display: inline-block;
+}
+
+/*********   section   **********/
+section {
+	background-image: url("assets/backgrounds/background_home.png");
+}
+
+/*********   nav   **********/
+
+nav {
+
+}
+
+footer {
+	background-color: #5A8AC1;
+}
+
+input {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+button {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#title {
+	color: white;
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 24px;
+	padding-top: 20px;
+	font-weight: bold
+}
+
+#pokeball {
+	display: inline-block;
+	height: 50px;
+	position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#namebar2 {
+	display: none;
+}
+
+#type {
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	margin-left: 5%;
+	border: 2px solid gray;
+}
+
+#number {
+	color: white;
+	background-color: #5A8AC1;
+	border: 2px solid gray;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-left: 5%;
+}
+
+#info {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 5%
+    margin: auto;
+    margin-top: 50px;
+    width: 55%;
+}
+
+
+#dropdown {
+	position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+#burger {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(54,54,54);
+    margin: 10px 0;
+    position: relative;
+    left: 15px;
+    top: 2px;
+    display: block;
+}
+
+#para {
+	background-color: white;
+	border: 5px solid #BF5C5B;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#searchbar {
+	padding-top: 10px;
+}
+#selectedimg {
+	display: inline-block;
+	width: 23%;
+	margin-left: 10%;
+}
+
+.pokeimg {
+	width: 15%;
+	border: 1px solid gray;
+}
+
+
+#iphonenav {
+	display: none;
+}
+
+#nav-button {
+	margin: 4%
+}
+
