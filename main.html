@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" media="(max-width: 800px) and (min-width: 401px)" href="ipad.css">	
+		<link rel="stylesheet" media="(max-width: 400px) and (min-width: 1px)" href="iphone.css">
+
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			<div class="thirds">
+				<div class="dropdown">
+				<form action="dropdown.html">
+   					 <input type="submit" value="Dropdown" />
+				</form>
+			</div>
+				<div id="hamburger"><img src="assets/icons/hamburger_icon.png"></div>
+			</div>
+				<div class="thirds title">PokeDex</div>
+				<div class="thirds"><img src="assets/icons/pokeball_icon.png" style="height:50%" class="dropdown"></div>
+
+		</header>
+
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+			<!-- 1) search box -->
+			<section>
+				<div class="textarea">
+					<textarea class="default" rows="1" width="100%">Search Pokemon
+					</textarea>
+					<div class=iphonesearch><textarea class="iphonesearch" rows="2" width="100%">Search Pokemon
+					</textarea></div>
+				</div>
+			</section>
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section>
+				<div style="height: 15%">
+						<div class="pokemonnumberiphone">
+							<h1>No. 001 Pikachu</h1>
+						</div>
+						<div class="pokemonpictureiphone">
+								<img src="assets/images/pikachu.png">
+						</div>
+						<div class="pokemondescriptioniphone">
+					
+						<div class="pokemontraitsiphone">
+							<p>- Electric Tip</p>
+							<p>- Gentle temperament</p>
+							<p>- Grasslands</p>
+						</div>
+						</div>
+					<div class="pokemonpicture">
+								<img src="assets/images/pikachu.png">
+					</div>
+					<div class="pokemondescription">
+						<div class="pokemonnumber">
+							<h1>No. 001 Pikachu</h1>
+						</div>
+						<div class="pokemontraits">
+							<p>- Electric Tip</p>
+							<p>- Gentle temperament</p>
+							<p>- Grasslands</p>
+						</div>
+					</div>
+				</div>
+				<div class="article">
+					Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing HTML and CSS, Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+				</div>
+			</section>
+			<!-- 3) other pokemon pictures in 2x6 format -->
+
+			
+			<nav id="iphone">
+				<div class="quarters">
+				<input type="submit" value="BACK"  style="width:45px" />
+			</div>
+			<div class="quarters">
+				<form action="map.html">
+   					 <input type="submit" value="MAP" style="width:45px" />
+				</form>
+			</div>
+			<div class="quarters">
+				<form action="area.html">
+   					 <input type="submit" value="AREA"  style="width:45px" />
+				</form>
+			</div>
+			<div class="quarters">
+				<input type="submit" value="NEXT"  style="width:45px" />
+			</div>
+			</nav>
+			<section>
+			
+			<div class="parent">
+			<div class="pokemonimages">
+				<img src="assets/images/whatisthat.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/abra.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/vulpix.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/nidorino.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/clafary.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/charmeleon.png"></div>
+
+			<div class="pokemonimages">
+				<img src="assets/images/charmander.png">
+			</div>
+			<div class="pokemonimages">
+				<img src="assets/images/firething.png">
+			</div>
+			<div class="pokemonimages">
+				<img src="assets/images/jigglypuff.png">
+			</div>
+			<div class="pokemonimages"><img src="assets/images/horsea.png"></div>
+			<div class="pokemonimages">
+				<img src="assets/images/pidgey.png">
+			</div>
+			<div class="pokemonimages">
+				<img src="assets/images/abra.png">
+			</div>
+			</div>
+			</section>
+
+		<!-- include navigation buttons -->
+		<nav id="noniphone">
+			<div class="quarters">
+				   					 <input type="submit" value="BACK" />
+			</div>
+			<div class="quarters">
+				<form action="map.html">
+   					 <input type="submit" value="MAP" />
+				</form>
+			</div>
+			<div class="quarters">
+				<form action="area.html">
+   					 <input type="submit" value="AREA" />
+				</form>
+			</div>
+			<div class="quarters">
+				   					 <input type="submit" value="MAP" />
+			</div>
+		</nav>
+	</body>
+</html>
