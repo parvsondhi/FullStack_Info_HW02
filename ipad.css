@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	background-image: url("assets/backgrounds/background_home.png");
+}
+
+/*********   header   **********/
+header {
+background-color: #BE5959;
+height: 40px;
+padding-top: 10px;
+}
+
+div#hamburger {
+	display: none;
+}
+
+.thirds {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.iphonesearch { 
+display: none; 
+}
+
+.thirds img {
+	object-fit: contain;
+	width: 30px;
+}
+
+.title {
+	color: white;
+	font-size: 16pt;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.textarea {
+	width: 80%;
+}
+
+.textarea > textarea {
+  width: inherit;
+}
+/*********   article   **********/
+.article {
+margin-top: 5px;
+}
+
+.pokemonpicture {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+	height: auto;
+	object-fit: contain;
+}
+
+.pokemonpicture img {
+	width: 100px;
+}
+
+.pokemondescription {
+	display: inline-block;
+	width: 65%;
+	text-align: center;
+	height: 85px;
+}
+
+.pokemonnumber {
+	text-align: left;
+	color: white;
+	font-size: 16pt;
+	background-color: #5C90CC;
+	padding-left: 20px;
+	
+}
+
+.pokemontraits {
+	text-align: left;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 5px;
+	height: 100%;
+	border: 1px solid grey;
+}
+
+.pokemonpictureiphone {
+		display: none;
+}
+
+.pokemonpictureiphone img {
+		display: none;
+}
+
+.pokemondescriptioniphone {
+	display: none;
+}
+
+.pokemonnumberiphone {
+	display: none;
+}
+
+.article {
+	border: 5px solid #BE5959;
+	border-radius: 10px;
+	background-color: white;
+	width: 85%;
+	text-align: center;
+	padding: 10px;
+}
+
+table, td, tr {
+	border: 1px solid black;
+	border-spacing: 0px; 
+	width: 200px;
+}
+
+.w3 {
+	object-fit: fill;
+}
+/*********   section   **********/
+section {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container {
+	margin-top: 5px;
+}
+
+.map img {
+	width: 100%;
+}
+
+.area img {
+	width: 100%;
+}
+
+.parent {
+	font-size: 0;
+	border: solid black 1px;
+	margin-top: 10px;
+}
+
+
+
+.pokemonimages {
+border: solid black 2px;
+display: inline-block;
+width: 24.9%;
+margin: -2px;
+}
+
+
+
+
+.pokemonimages img {
+	width: 100%;
+	object-fit: contain;
+}
+
+
+/*********   nav   **********/
+
+nav {
+	background-color: #5C90CC;
+	height: 50px;
+	vertical-align: middle;
+}
+#iphone{
+	display: none;
+}
+}
+
+
+#noniphone {
+	display: inline-block;
+	background-color: #5C90CC;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.quarters {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
