@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Pokedex Area</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    
+      <header>
+        <h1> Area </h1>
+      </header>
+
+  </body>
+
+</html>
+
+//*********main.html
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- make sure to link to your css file -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <header>
+      <button class=title>Dropdown</button>
+      <div class= "title center">
+        <h1> Pokedex </h1>
+      </div>
+      <div id=pokeball_location>
+        <img src="assets/icons/pokeball_icon.png" class=title id=pokeball>
+      </div>
+    </header>
+    <section id=background>
+      <div id =search_pokemon>
+        <h2>Search Pokemon</h2>
+      </div>
+    </section>
+    <!-- include a header tag -->
+
+    <!-- depending on how you structure your html, you should have 3 section tags -->
+      <!-- 1) search box -->
+      <!-- 2) selected pokemon: picture, property and description of pikachu -->
+      <!-- 3) other pokemon pictures in 2x6 format -->
+
+    <!-- include navigation buttons -->
+
+  </body>
+
+
+//********main.css
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  max-width: none;
+}
+
+html, body{
+
+}
+
+/*********   header   **********/
+header {
+  background-color: #BE5959;
+
+
+  
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+
+
+  }
+h2{
+  text-align: left; 
+  padding:20px;
+  color: gray;
+}
+button{
+  margin-left: 10px;
+}
+
+/*********   article   **********/
+article {
+
+}
+
+/*********   section   **********/
+section {
+
+}
+
+/*********   nav   **********/
+
+nav {
+
+}
+
+.center {
+  text-align: center;
+}
+.title { 
+  display: inline-block; 
+  
+}
+
+#background {
+  background-image: url("assets/backgrounds/background_home.png");
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+}
+#searchpokemon { 
+  background-color: white;
+  border: solid;
+  margin: 2px;
+  }
+#pokeball {
+  height: 40px;
+  width: auto;
+}
+
+#pokeball_location {
+  float: right;
+  margin: 10px;
+}
+
+*****
+<h3> Critically Acclaimed </h3>
+      <div class="other-news-item">
+        <img src="assets/critically-acclaimed-movies/django.jpeg">
+        <p> Django </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/critically-acclaimed-movies/greenmile.jpeg">
+        <p> Green Mile </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/critically-acclaimed-movies/kingkong.jpeg">
+        <p> King Kong </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/critically-acclaimed-movies/taxi.jpeg">
+        <p> Taxi </p>
+      </div>
+
+      <section id="trending-now-container">
+      <h3> Trending Now </h3>
+      <div class="other-news-item">
+        <img src="assets/trending-now/baywatch.jpeg">
+        <p> Bay Watch </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/trending-now/toystory.jpeg">
+        <p> Toy Story </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/trending-now/wonderwoman.jpeg">
+        <p> Wonder Woman </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/trending-now/worldwarz.jpeg">
+        <p> World War Z </p>
+      </div>
+    </section>
+
+    <section id="action-and-adventure-container">
+      <h3> Adventure and Action </h3>
+
+      <div class="other-news-item">
+        <img src="assets/action-and-adventure/civil-war.png">
+        <p> Civil War </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/action-and-adventure/god-of-war.png">
+        <p> God of War </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/action-and-adventure/sahara.png">
+        <p> Sahara </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/action-and-adventure/v-for-vendetta.png">
+        <p> V for Vendetta </p>
+      </div>
+
+    </section>
+
+    <section id="comedies-container">
+      <h3> Comedies </h3>
+
+      <div class="other-news-item">
+        <img src="assets/comedies/40-year-old-virgin.jpeg">
+        <p> 40 Year Old Virgin </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/comedies/superbad.jpeg">
+        <p> Superbad </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/comedies/the-interview.jpeg">
+        <p> The Interivew </p>
+      </div>
+      <div class="other-news-item">
+        <img src="assets/comedies/zohan.jpeg">
+        <p> Zohan </p>
+      </div>
+
+    </section>
