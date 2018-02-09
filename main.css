@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+
+}
+
+/********* header footer *******/
+header, footer {
+        width: 100%;
+}
+
+/*********   header   **********/
+header {
+        height: 70px;
+	background: #EDA090;
+	color: #ffffff;
+	/*box-sizing: border-box;*/
+	text-align: center;
+}
+
+/*********   footer    **********/
+footer {
+        background: #8AB4E7;
+        color: #ffffff;
+        height: 40px;
+}
+
+/*********   article   **********/
+article {
+
+}
+
+/*********   section   **********/
+section#middle {
+        background-image: url("assets/backgrounds/background_home.png");
+}
+
+div.thirds {
+        height: inherit;
+        margin: auto;
+        display: inline-block;
+        width: 32%;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+}
+
+.button-wrapper {
+        vertical-align: middle;
+}
+
+h1 {
+        font-size: 2em;
+        font-weight: bold;
+}
+table {
+        width: 50%;
+        display: inline;
+}
+#middle {
+        display: block;
+        text-align: center;
+        align-content: center;
+}
+
+#pdetail {
+        width: 50%;
+        display: block;
+        vertical-align: top;
+}
+#ppic-wrapper {
+        width: 70%;
+        min-width: 200px;
+        max-width: 400px;
+        display: block;
+
+}
+#ppic-container {;
+        display: block;
+}
+#bottom-name {
+        display: none;       
+}
+#pdesc {
+        width: 70%;
+        display: none;
+}
+#pattribs {
+        display: inline;  
+}
+
+#pokeball {
+        display: none;
+        max-width: 50px;
+        max-height: 50px;
+}
+.other-pmon img {
+        width: 49%;
+}
+.pmon-name {
+        background: #7096d3;
+        color: #ffffff;
+}
+.wide {
+        width: 90%;
+}
+.right {
+        float: right;
+        padding: 10px;/*
+        text-align: right;
+        align-content: right;*/
+}
+
+.left {
+        float: left;
+        padding: 10px;/*
+        text-align: left;
+        align-content: left;*/
+}
+
+.center {
+        padding: 10px;
+        text-align: center;
+        align-content: center;  
+}
+
+.buddies {
+        display: block;
+}
+
+#ppic {
+        display: inline;
+        max-width: 200px;
+        max-height: 200px;
+        align-content: center;
+}
+table {
+        width: 100%;
+        border: 1px;
+}
+footer nav {
+        height: inherit;
+}
+
+footer nav div{
+        display: inline-block;
+        width: 23%;
+        height: inherit;
+        align-content: center;
+        text-align: center;
+}
+
+<style>
+        @media (min-width:200px) {}
+        @media (min-width: 500px) {
+                .other-pmon img {
+                        width: 24%;
+                }
+                #pokeball {
+                        display: inline;
+                }
+        }
+        @media (min-width: 760px) {
+                #top-name {
+                        display: none;
+                }
+                #bottom-name {
+                        display: inline-block;
+                }
+                #ppic-wrapper {
+                        display: inline-block;
+                }
+                #pdetail {
+                        display: inline-block;
+                        margin-top: 75px;
+                }
+                #ppic {
+                        display: inline;
+                        margin-left: auto;
+                        margin-right: auto;
+                }
+                #pdesc {
+                        display: block;
+                }
+                .buddies {
+                        display: inline-block;
+                }
+        }
+        @media (min-width: 850px) {
+                .other-pmon img {
+                        width: 16%;
+                }
+
+        }
+        @media (min-width: 1400px) {
+                .other-pmon img {
+                        width: 8%;
+                }
+
+        }
+</style>
