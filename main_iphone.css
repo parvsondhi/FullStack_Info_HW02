@@ -1,0 +1,223 @@
+
+/*******  DAVID HUH    *******/
+/*******  HOMEWORK #2  *******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+	background-image: url("assets/backgrounds/background_home.png");
+}
+
+/*********   header   **********/
+header {
+	padding-top: 15px;
+	height: 50px;
+	background-color: indianred;
+}
+
+
+.toggle-menu {
+	display: inline;
+	float: left; 
+	padding-left: 5px;
+}
+
+.toggle-menu li {
+	display: block;
+	float: left;
+}
+
+.toggle-menu-bar {
+	display: block;
+	width: 15px;
+	height: 4px;
+	background-color: black;
+	margin: 0 auto 3px;
+    transition: background-color 0.2s;
+}
+
+/*********   article   **********/
+article {
+	font-family: Verdana;
+}
+
+/*********   section   **********/
+section {
+	text-align: center;
+	margin-top: 5px;
+	font-family: Arial;
+}
+
+/*********   nav   **********/
+
+nav {
+	height: 70px;
+	vertical-align: middle;
+	background-color: cornflowerblue;
+}
+
+.menu {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.button {
+	display: none;
+}
+.title {
+	display: inline-block;
+	vertical-align:; left;
+	text-align: left;
+	color: white;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.pokeball {
+	display: none;
+}
+
+.pikachu-title-ipad {
+	display: none;
+}
+
+.pikachu-title-iphone {
+	display: inline-block;
+	background-color: cornflowerblue;
+	color: white;
+	text-align: left;
+	border: 0.5px solid black;
+	font-size: 12pt;
+	padding-left: 25px;
+	height: 20px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+.pikachu-image {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.pikachu-image img {
+	width: 100px;
+}
+
+.pikachu-overview {
+	display: inline-block;
+	width: 95%;
+	height: 90px;
+}
+
+.pikachu-title {
+	display: none;
+}
+
+.pikachu-description {
+	background-color: white;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 80px;
+	margin:0 15px;
+	border: 0.5px solid black;
+	padding-left: 20px;
+	padding-top: 15px;
+	height: 75%;
+}
+
+.pikachu-story {
+	display: none;
+}
+
+.pokemon-image-parent {
+	font-size: 0;
+	margin-top: 20px;
+}
+
+
+.pokemon-image-laptop {
+	display: none;
+}
+
+.pokemon-image-laptop img {
+	display: none;
+}
+
+.pokemon-image-ipad {
+	display: none;
+}
+
+.pokemon-image-ipad img {
+	display: none;
+}
+
+.pokemon-image-iphone {
+	display: inline-block;
+	width: 48%;
+}
+
+.pokemon-image-iphone img {
+	display: inline;
+	border: solid black 1px;
+	width: 100%;
+}
+
+
+.bottom-nav {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.bottom-nav-button {
+	display: inline-block;
+	padding-top: 20px;
+	width: 45%;
+	vertical-align: middle;
+}
+
+.nav-laptop {
+	display: none;
+}
+
+.nav-ipad {
+	display: none;
+}
+
+.nav-iphone {
+	display: inline;
+	height: 200px;
+	vertical-align: middle;
+	background-color: cornflowerblue;
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	max-width: none;
+}
