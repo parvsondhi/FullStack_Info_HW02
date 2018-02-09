@@ -1,0 +1,89 @@
+#pikachu_img {
+	position: absolute;
+	transform: scale(.25);
+	top: 20px;
+	left: 0px;
+}
+
+#p1 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 20px;
+	top:600px;	
+}
+
+#p2 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 155px;
+	top:600px;	
+}
+
+#p3 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 290px;
+	top:600px;	
+}
+
+#p4 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 425px;
+	top:600px;	
+}
+
+#p5 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 565px;
+	top:600px;	
+}
+
+#p6 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 700px;
+	top:600px;	
+}
+
+#p7 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 20px;
+	top: 730px;	
+}
+
+#p8 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 155px;
+	top:730px;	
+}
+
+#p9 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 290px;
+	top: 730px;	
+}
+
+#p10 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 425px;
+	top: 730px;	
+}
+#p11 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 565px;
+	top: 730px;	
+}
+
+#p12 { 
+	transform: scale(.7);
+	position: absolute;
+	left: 700px;
+	top:730px;	
+}
