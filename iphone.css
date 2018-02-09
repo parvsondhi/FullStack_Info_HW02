@@ -1,0 +1,73 @@
+#hamburger {
+    display: inline;
+    padding-left: 10px;
+/*    width: 20px;*/
+}
+
+#hamburger img {
+    width: 30px;
+}
+
+#dropdown {
+    display: none;
+}
+
+#header-dropdown-menu {
+    text-align: left;
+}
+
+#header-pokeball {
+	display: none;
+}
+
+/* Selected Pokemon stuff */
+
+.pokemon-name {
+    text-align: center;
+    padding: 2px;
+}
+
+#selected-pokemon-pic {
+	width: 100%;
+}
+
+#selected-pokemon-pic img {
+    
+}
+
+#selected-pokemon-property {
+	width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Hide blurb */
+#selected-pokemon-description {
+    display: none;
+}
+
+#pokemon-list {
+    width: 99%;
+}
+
+#pokemon-list img {
+	width: 48%;
+}
+
+/* Navigation buttons */
+#nav-large-screen {
+    display: none;
+}
+
+#nav-iphone {
+    display: block;
+/*    margin-top: 10px;*/
+	background: #538cc6;
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+}
+
+.nav-button {
+    width: 25%;
+}
