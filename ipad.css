@@ -1,0 +1,43 @@
+.pokemon-name{
+	display:block;
+	width: 100%;
+	padding: 5px 0 5px 0;
+}
+
+tr th{
+	display:none;
+
+}
+
+tr td{
+	/*border-top: 1px solid #000000;*/
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+#selected-pokemon-property{
+	margin-top: 20px;
+}
+
+#pokemon-list img {
+	display: inline-block;
+	width:24%;
+	margin: 0;
+}
+
+#pokemon-list {
+	width:100%;
+	/*margin: 0;*/
+}
+
+#map-img img{
+	width: 100%;
+}
+
+#nav-bar1{
+	display: none;
+}
+
+#area-img img{
+	width: 100%;
+}
