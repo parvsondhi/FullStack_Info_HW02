@@ -1,2 +1,2 @@
-# FullStack_Info_HW02
-Full Stack Web Development Homework 02 - Responsive Design
+# FullStack_Info_HW01
+Full Stack Web Development Homework 01 - HTML and CSS
