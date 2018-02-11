@@ -1,0 +1,85 @@
+/*This file is for the ipad version*/
+
+/*-------------- DONE - DONE ---------------*/
+footer {
+	background-color: #689CD9;
+	position: fixed;
+	height: 75px;
+	width: 100%;
+	bottom: 0px;
+}
+
+/*-------------- Overview - DONE ---------------*/
+
+.overview {
+    position: relative;
+    vertical-align: middle;
+}
+
+.overview img {
+	width: 150px;
+	height: 150px;
+    position: relative;
+    float: left;
+    display: inline;
+    left: 60px;
+}
+
+.overview p {
+	border: 10px #BD4D4D solid;
+	border-radius: 15px;
+	color: black;
+	background-color: #ffffff;
+	font-size: 20px;
+	display: block;
+	width: 80%;
+	padding: 30px;
+	margin-top: 50px;
+	text-align: left;
+	line-height: 1.5;
+    word-wrap: break-word;
+}
+
+
+/*-------------- Grid - DONE ---------------*/
+
+.other-pokemon {
+	display: inline-block;
+	width: 24%;
+	background-color: #ffffff;
+	margin-right: -4px;
+	margin-top: -4.5px;
+}
+
+.other-pokemon img {
+    width: 100%;
+	height: 150px;
+	object-fit: contain;
+	border: 1px solid;
+	margin-right: 0px;
+}
+
+/*-------------- Nav - Done ---------------*/
+
+nav {    
+   	/*display: inline-block;*/
+   	text-align: center;
+   	display: flex;
+   	height: 100%;
+   	align-items: center;
+}
+
+.nav-button {
+	margin: 20px;
+	padding: 0%;
+	width: 100%;
+	height: 40%;
+	border-radius: 6px;
+	border: .5px solid;
+	font-size: 15px;
+	text-align: center;
+}
+
+.nav-button:visited {
+	color: #ffffff;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" media="(max-width: 375px)", href="medium2.css">
+        <link rel="stylesheet" media="(min-width: 600px) and (max-width: 800px)", href="medium1.css">
+		<!-- make sure to link to your css file -->
+	</head>
+
+	<body>
+		<!-- include a header tag -->
+		<header>
+			<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+			</div>
+			<h1 id="site-title">Pokedex</h1>
+			<img src="assets/icons/pokeball_icon.png" class="top-right">
+
+			<!-- TOP RIGHT ICON IN HEADER -->
+		</header>
+
+		<!-- depending on how you structure your html, you should have 3 section tags -->
+			<!-- 1) search box -->
+		<section id="search-box">
+				<input type="text" placeholder="Search Pokemon" style="width: 80%; height: 30px">
+		</section>
+			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+		<section class="overview">
+			<img src="assets/images/pikachu.png" style="float: left;">
+			<h2> No. 001 Pikachu </h2>
+			<ul class="dashed"> 
+				<li> Electric type </li>
+				<li> Gentle temperment </li>
+				<li> Grasslands </li>
+			</ul>
+			<p> Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+		</section>
+			<!-- 3) other pokemon pictures in 2x6 format -->
+		<article>
+			<div class="other-pokemon">
+				<img src="assets/images/abra.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/charmander.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/charmeleon.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/clafary.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/firething.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/horsea.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/jigglypuff.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/nidorino.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/pidgey.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/vulpix.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/wartortle.png">
+			</div>
+			<div class="other-pokemon">
+				<img src="assets/images/whatisthat.png">
+			</div>
+		</article>
+
+		<footer>
+			<!-- include navigation buttons -->
+			<nav id="navigation">
+				<button class="nav-button" href="#" style="color: #000000; text-decoration: none;">BACK</button>
+				<button class="nav-button" href="#" style="color: #000000; text-decoration: none;">MAP</button>
+				<button class="nav-button" href="#" style="color: #000000; text-decoration: none;">AREA</button>
+				<button class="nav-button" href="#" style="color: #000000; text-decoration: none;">NEXT</button>
+			</nav>
+		</footer>
+
+	</body>
+</html>
