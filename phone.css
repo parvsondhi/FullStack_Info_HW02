@@ -1,0 +1,92 @@
+header {
+	width: 375px;
+}
+
+#header-navigation {
+	display: none;
+}
+
+.hamburger {
+	display: inline-block;
+}
+
+.hamburger img {
+	display: inline-block;
+	width: 10%;
+	
+}
+
+#header-title  {
+
+}
+
+.tablet-name {
+	display: block;
+}
+
+#pokemon-number {
+	display: none;
+}
+
+#pokemon-pikachu {
+	display: block;
+}
+
+#pokemon-detail {
+	padding: 20px;
+  vertical-align: middle;	
+
+}
+
+#pokemon-story {
+	margin-top: 20px;
+}
+
+
+#pokemon-image {
+	width: 49%;
+}
+
+#pokemon-detail {
+	margin-left: 25%;
+}
+
+#pokemon-story {
+	display: none;
+}
+
+.bottom-footnote {
+	display: none;
+}
+
+#footnote {
+	background-color: #5C90CC;
+	height: 50px;
+	vertical-align: middle;
+
+}
+
+#footnote-button {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+
+}
+
+.footnote2 {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#footnote3 {
+	background-color: #5C90CC;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#footnote-button2 {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}

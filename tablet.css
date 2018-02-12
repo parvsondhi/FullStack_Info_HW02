@@ -1,0 +1,27 @@
+.hamburger {
+	display: none;
+}
+
+.hamburger img {
+	display: none;
+}
+
+.tablet-name {
+	display: block;
+}
+
+#pokemon-number {
+	display: none;
+}
+
+#search-bar {
+	padding-bottom: 10px;
+}
+
+#pokemon-image {
+	width: 24%;
+}
+
+.footnote2 {
+	display: none;
+}
